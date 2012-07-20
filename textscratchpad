@@ -1,0 +1,50 @@
+Sequencing technologies continue to move in a direction where throughput per run is
+increasing while the cost per basepair is decreasing (review in ). Several
+technologies available on the market today produce massive volumes of sequence data per
+run; for instance, Illumina's GAIIx system can produce over 50 Giga-base pair (Gbp) per
+run, and it is expected that this volume will increase 4 fold with Illumina’s HiSeq 2000
+technology. At the same time, the pricing of the technology has significantly dropped,
+making the technology widely accessible to small laboratories. A new generation of
+smaller-factor, benchtop-based, less expensive sequencers will be available in 2010 (for
+example, GS Junior - 454 Sequencing, online ref. 1). Therefore, sequencing of complete
+bacterial, small fungal and viral genomes, or multiple BACs and plasmids containing genic
+regions of interest, will become commonplace for biological research.  Sequencing finds
+applications in several areas of the genome sciences, including Single Nucleotide
+Polymorphism (SNP) variation in genes, gene expression analysis (RNAseq), DNA–protein
+interaction analysis (ChiPseq), and study of microbial communities from different
+environments (review in Mardis 2008).  For instance, sequence comparison has been used to
+identify SNPs in genes sequences obtained from cancer samples (Dahl et al. 2007), or
+discovery of gene variants in sequenced HIV clinical samples (Wang et al. 2007). ChIP-seq
+is a method based on sequencing fragments from DNA-protein complexes after chromatin
+immuno-precipitation, and in combination with genome-wide sequence alignments it has been
+successfully used for uncovering protein interactions in the entire human genome (Jothi et
+al. 2008).  RNA-seq, uses high-throughput sequencing as a method for identifying all
+transcripts present in the cell. Unlike designing microarrays for measuring gene
+expression, it does not require an annotated genome or a priori knowledge of the
+transcripts. It has been shown to be very accurate by identifying 86% of transcripts
+present in yeast cells, compared to previously known expressed genes under similar
+conditions (Yassour et al. 2009). When combined with whole genome sequencing and
+large-scale sequence alignment of the identified transcripts to the genome, RNAseq can be
+an efficient method for quickly annotating new genomes.  The new generation of sequencing
+technologies is also being used in the area of metagenomics – a paradigm that offers
+cultivation independent approaches to study microbial communities. With their high
+throughput, these technologies offer greater sequencing depth (compared to traditional
+Sanger sequencing) and thus provide the ability to sample genomes of organisms that occur
+at low abundances in communities at much lower costs. While 454 pyrosequencing sequencing
+is used routinely in metagenomic projects (see for instance, Angly et al. 2006, Edwards et
+al. 2006, Turnbaugh et al. 2006), Illumina sequencing has also recently been shown to be
+useful in studying microbial communities (Qin et al. 2010). The JCVI is involved in
+several large-scale metagenomic projects, including the Sorcerer II Global Ocean Sampling
+(GOS) Expedition to study marine microbial diversity, and also the National Institutes of
+Health funded Human Microbiome Project to study human associated microbial communities.
+When the GOS data from the first phase of the expedition were published (Yooseph et al.
+2007), they more than doubled the number of proteins in the public databases. 
+
+Sequencing instruments are typically bundled with only minimal computational and storage
+capacity for data capture during sequencing runs. Given the scale of datasets, scientific
+value cannot necessarily be obtained from the investment in a sequencing instrument,
+unless it is accompanied by an equal investment in a large-scale bioinformatics
+infrastructure. For example, the un-assembled reads returned from a single lane of the
+Illumina GAIIx instrument after base calling are approximately 100 GigaByte (GB) in size.
+However, publicly available online sequence analysis tools such as those available via the
+NCBI website cannot accept input sequence data files of more than 0.5 GB.

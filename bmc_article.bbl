@@ -1,0 +1,35 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{[#1]}
+\providecommand{\urlprefix}{}
+
+\bibitem{Moorthie:2011ah}
+Moorthie S, Mattocks CJ, Wright CF: \textbf{Review of massively parallel DNA
+  sequencing technologies}. \emph{The HUGO Journal} 2011, \textbf{5}:1--12.
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>Review of massively parallel DNA sequencing
+  technologies</p></title>
+  <aug>
+    <au><snm>Moorthie</snm><fnm>S</fnm></au>
+    <au><snm>Mattocks</snm><fnm>CJ</fnm></au>
+    <au><snm>Wright</snm><fnm>CF</fnm></au>
+  </aug>
+  <source>The HUGO Journal</source>
+  <pubdate>2011</pubdate>
+  <volume>5</volume>
+  <fpage>1</fpage>
+  <lpage>-12</lpage>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
