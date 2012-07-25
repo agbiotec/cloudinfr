@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.9)  20 JUL 2012 17:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.9)  24 JUL 2012 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**bmc_article
+**bmc_article.tex
 (./bmc_article.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ba
@@ -322,61 +322,263 @@ LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 160.
+(Font)              <12> on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 160.
+(Font)              <8> on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 160.
+(Font)              <6> on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 160.
+(Font)              <5> on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 160.
+(Font)              <7> on input line 151.
 
-Overfull \hbox (9.99998pt too wide) in paragraph at lines 160--160
+Overfull \hbox (9.99998pt too wide) in paragraph at lines 151--151
 []  
  []
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 236.
+LaTeX Warning: Citation `Metzker2009' on page 1 undefined on input line 172.
 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ...iPseq), (review in \cite{Mardis2008}). 
+                                                  The new generation of sequ...
+
+? 
+
+LaTeX Warning: Citation `Nelson2010' on page 1 undefined on input line 243.
+
+
+LaTeX Warning: Citation `Rusch2007' on page 1 undefined on input line 245.
 
 [1
 
 {/usr/local/texlive/2011basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./bmc_article.bbl [2]) [3] (./bmc_article.aux) ) 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 ...uting Applications on Digital Biology}\pb
+                                                  
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271       use specific software to analyze 
+                                              the generated data, and store ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 ...s for future use (Richer et al. 2009). 
+                                                  \pb
+? 
+[2]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.308 ... (http://www.rackspace.com/cloud/private_
+                                                  edition/openstack/)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.309 
+      
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.316 ...  available pre-configured software and 
+                                                  on-demand computing using ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.320       characteristics 
+                             of cloud computing platforms, such as highly pa...
+
+? 
+[3]
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 ...ckage, also on the EC2 cloud platform. 
+                                                   In regards to
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 ...ge, also on the EC2 cloud platform.  
+                                                  In regards to
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.360 ...large scale genomic sequence analysis. 
+                                                   For the
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.360 ...ge scale genomic sequence analysis.  
+                                                  For the
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364       pre-configured software and 
+                                         on-demand computing using virtualiz...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.368       characteristics 
+                             of cloud computing platforms, such as highly pa...
+
+? 
+[4]
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.385 ...oaded or approximately 600GB in 2 days. 
+                                                   Solutions addressing this...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.390 ...he Short Read Archive (online ref. 13). 
+                                                   Through the
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393       (see online ref. 14). 
+                                     Finally, the Amazon offers the opti...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393       (see online ref. 14).  
+                                       Finally, the Amazon offers the opti...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393       (see online ref. 14).   
+                                         Finally, the Amazon offers the opti...
+
+? 
+[5] (./bmc_article.bbl [6]) [7] [8] (./bmc_article.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 812 strings out of 494752
- 9436 string characters out of 3171021
- 58557 words of memory out of 3000000
- 4052 multiletter control sequences out of 15000+200000
- 11560 words of font info for 40 fonts, out of 3000000 for 9000
+ 815 strings out of 494752
+ 9453 string characters out of 3171021
+ 62557 words of memory out of 3000000
+ 4057 multiletter control sequences out of 15000+200000
+ 10851 words of font info for 38 fonts, out of 3000000 for 9000
  166 hyphenation exceptions out of 8191
- 29i,8n,21p,178b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2011basic/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2011bas
-ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2011
-basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
-011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
-exlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/loc
-al/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
-/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
-/usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pf
-b></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
-x10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmssi10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti9.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb>
-Output written on bmc_article.pdf (3 pages, 180249 bytes).
+ 29i,8n,21p,182b,257s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx9.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr6.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2011basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2011basic/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2011basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2011basic/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011basic
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011b
+asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/20
+11basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on bmc_article.pdf (8 pages, 203915 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

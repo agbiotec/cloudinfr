@@ -9,44 +9,51 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bmc_article.bib
-You've used 1 entry,
+Warning--I didn't find a database entry for "Metzker2009"
+Warning--I didn't find a database entry for ""
+Warning--empty journal in Illumina
+Warning--empty year in Illumina
+Warning--empty journal in solid5500
+Warning--empty year in solid5500
+You've used 5 entries,
             3603 wiz_defined-function locations,
-            699 strings with 5214 characters,
-and the built_in function-call counts, 1890 in all, are:
-= -- 170
-> -- 10
-< -- 4
-+ -- 12
-- -- 3
-* -- 212
-:= -- 326
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 3
+            719 strings with 5568 characters,
+and the built_in function-call counts, 6762 in all, are:
+= -- 610
+> -- 29
+< -- 13
++ -- 39
+- -- 8
+* -- 650
+:= -- 1229
+add.period$ -- 8
+call.type$ -- 5
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 125
-empty$ -- 144
-format.name$ -- 13
-if$ -- 365
+cite$ -- 9
+duplicate$ -- 466
+empty$ -- 512
+format.name$ -- 34
+if$ -- 1345
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 46
-newline$ -- 33
-num.names$ -- 2
-pop$ -- 35
+int.to.str$ -- 10
+missing$ -- 201
+newline$ -- 78
+num.names$ -- 10
+pop$ -- 180
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 2
-skip$ -- 18
+quote$ -- 10
+skip$ -- 110
 stack$ -- 0
-substring$ -- 272
-swap$ -- 32
-text.length$ -- 2
+substring$ -- 924
+swap$ -- 103
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 11
-width$ -- 2
-write$ -- 41
+warning$ -- 4
+while$ -- 37
+width$ -- 6
+write$ -- 113
+(There were 6 warnings)
