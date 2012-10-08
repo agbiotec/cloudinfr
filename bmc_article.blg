@@ -11,49 +11,54 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bmc_article.bib
 Warning--I didn't find a database entry for "Metzker2009"
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Loman2012"
+Warning--I didn't find a database entry for "johnson2008ncbi"
+Warning--I didn't find a database entry for "cloudbio"
 Warning--empty journal in Illumina
 Warning--empty year in Illumina
 Warning--empty journal in solid5500
 Warning--empty year in solid5500
-You've used 5 entries,
+Warning--empty journal in awsec2
+Warning--empty year in awsec2
+You've used 23 entries,
             3603 wiz_defined-function locations,
-            719 strings with 5568 characters,
-and the built_in function-call counts, 6762 in all, are:
-= -- 610
-> -- 29
-< -- 13
-+ -- 39
-- -- 8
-* -- 650
-:= -- 1229
-add.period$ -- 8
-call.type$ -- 5
-change.case$ -- 8
+            848 strings with 9386 characters,
+and the built_in function-call counts, 47567 in all, are:
+= -- 4296
+> -- 284
+< -- 125
++ -- 360
+- -- 87
+* -- 5492
+:= -- 8256
+add.period$ -- 40
+call.type$ -- 23
+change.case$ -- 102
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 466
-empty$ -- 512
-format.name$ -- 34
-if$ -- 1345
+cite$ -- 29
+duplicate$ -- 3088
+empty$ -- 3676
+format.name$ -- 406
+if$ -- 9289
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 201
-newline$ -- 78
-num.names$ -- 10
-pop$ -- 180
+int.to.str$ -- 46
+missing$ -- 1115
+newline$ -- 427
+num.names$ -- 43
+pop$ -- 793
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 10
-skip$ -- 110
+quote$ -- 46
+skip$ -- 439
 stack$ -- 0
-substring$ -- 924
-swap$ -- 103
-text.length$ -- 10
+substring$ -- 7209
+swap$ -- 750
+text.length$ -- 46
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 37
-width$ -- 6
-write$ -- 113
-(There were 6 warnings)
+warning$ -- 6
+while$ -- 242
+width$ -- 25
+write$ -- 826
+(There were 11 warnings)

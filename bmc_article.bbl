@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{[#1]}
 \providecommand{\urlprefix}{}
 
@@ -14,13 +14,101 @@ Illumina I: \textbf{Technical Specifications of Illumina Sequencers}.
 \bibitem{solid5500}
 Inc AB: \textbf{The SOLiD 5500 sequencing system.}
 
-\bibitem{Loman2012}
-Loman N, Misra R, Dallman T: \textbf{Performance comparison of benchtop
-  high-throughput sequencing platforms}. \emph{Nature …} 2012.
-
 \bibitem{Mardis2008}
 Mardis E: \textbf{Next-generation DNA sequencing methods}. \emph{Annu. Rev.
   Genomics Hum. Genet.} 2008, \textbf{9}:387--402.
+
+\bibitem{Rusch2007}
+Rusch D, Halpern A, Sutton G, Heidelberg K, Williamson S, Yooseph S, Wu D,
+  Eisen J, Hoffman J, Remington K: \textbf{The Sorcerer II global ocean
+  sampling expedition: northwest Atlantic through eastern tropical Pacific}.
+  \emph{PLoS biology} 2007, \textbf{5}(3):e77.
+
+\bibitem{Nelson2010}
+Nelson K, Weinstock G, Highlander S, Worley K, Creasy H, Wortman J, Rusch D,
+  Mitreva M, Sodergren E, Chinwalla A: \textbf{A catalog of reference genomes
+  from the human microbiome}. \emph{Science (New York, NY)} 2010,
+  \textbf{328}(5981):994.
+
+\bibitem{Subramaniam1998Biology}
+Subramaniam S: \textbf{The biology workbench‚ÄîA seamless database and
+  analysis environment for the biologist}. \emph{Proteins} 1998,
+  \textbf{32}:1--2.
+
+\bibitem{Letondal2001Web}
+Letondal C: \textbf{A Web interface generator for molecular biology programs in
+  Unix}. \emph{Bioinformatics} 2001, \textbf{17}:73--82.
+
+\bibitem{Sarachu2005WEMBOSS}
+Sarachu M, Colet M: \textbf{wEMBOSS: a web interface for EMBOSS}.
+  \emph{Bioinformatics} 2005, \textbf{21}(4):540--541.
+
+\bibitem{Neron2009Mobyle}
+Neron B, and H Menager, Maufrais C, Joly N, Maupetit J, Letort S, Carrere S,
+  Tuffery P, Letondal C: \textbf{Mobyle: a new full web bioinformatics
+  framework Bioinformatics}. \emph{Bioinformatics} 2009,
+  \textbf{25}(22):3005--3011.
+
+\bibitem{Cattley2007BioManager}
+Cattley S, Arthur JW: \textbf{BioManager: the use of a bioinformatics web
+  application as a teaching tool in undergraduate bioinformatics training}.
+  \emph{Briefings in Bioinformatics} 2007, \textbf{8}(6):457--465.
+
+\bibitem{Lushbough2008Implementing}
+Lushbough CM, Bergman MK, Lawrence C, Jennewein D, Volker B:
+  \textbf{Implementing bioinformatic workflows within the BioExtract Server}.
+  \emph{International Journal of Computational Biology and Drug Design} 2008,
+  \textbf{1}(3):302--312.
+
+\bibitem{Grigoriev2012}
+Grigoriev I, Nordberg H, Shabalov I, Aerts A, Cantor M, Goodstein D, Kuo A,
+  Minovitsky S, Nikitin R, Ohm R: \textbf{The Genome Portal of the Department
+  of Energy Joint Genome Institute}. \emph{Nucleic Acids Research} 2012,
+  \textbf{40}(D1):D26--D32.
+
+\bibitem{Altintas2010}
+\emph{Camera 2.0: A data-centric metagenomics community infrastructure driven
+  by scientific workflows}, IEEE 2010.
+
+\bibitem{Hunter2011}
+Hunter C, Cochrane G, Apweiler R, Hunter S: \textbf{The EBI Metagenomics
+  Archive, Integration and Analysis Resource}. \emph{Handbook of Molecular
+  Microbial Ecology I} 2011, :333--340.
+
+\bibitem{Aziz2010}
+Aziz R: \textbf{Subsystems-based servers for rapid annotation of genomes and
+  metagenomes}. \emph{BMC Bioinformatics} 2010, \textbf{11}(Suppl 4):O2.
+
+\bibitem{Goecks2010}
+Goecks J, Nekrutenko A, Taylor J: \textbf{Galaxy: a comprehensive approach for
+  supporting accessible, reproducible, and transparent computational research
+  in the life sciences}. \emph{Genome Biol} 2010, \textbf{11}(8):R86.
+
+\bibitem{Angiuoli2011}
+Angiuoli S, Matalka M, Gussman A, Galens K, Vangala M, Riley D, Arze C, White
+  J, White O, Fricke W: \textbf{CloVR: A virtual machine for automated and
+  portable sequence analysis from the desktop using cloud computing}. \emph{BMC
+  Bioinformatics} 2011, \textbf{12}:356.
+
+\bibitem{Krampis2012}
+Krampis K, Booth T, Chapman B, Tiwari B, Bicak M, Field D, Nelson KE:
+  \textbf{Cloud BioLinux: pre-configured and on-demand bioinformatics computing
+  for the genomics community}. \emph{BMC Bioinformatics} 2012, \textbf{13}:42.
+
+\bibitem{Altintas2011}
+\emph{Distributed workflow-driven analysis of large-scale biological data using
+  biokepler}, ACM 2011.
+
+\bibitem{awsec2}
+Services AW: \textbf{Elastic Compute Cloud (EC2)}.
+
+\bibitem{Afgan2010}
+Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
+  CloudMan: delivering cloud compute clusters}. \emph{BMC Bioinformatics} 2010,
+  \textbf{11}(Suppl 12):S4.
+
+\bibitem{Wilkening2009}
+\emph{Using clouds for metagenomics: A case study}, IEEE 2009.
 
 \end{thebibliography}
 
@@ -55,18 +143,6 @@ Mardis E: \textbf{Next-generation DNA sequencing methods}. \emph{Annu. Rev.
 </bibl>
 
 <bibl id="B4">
-  <title><p>Performance comparison of benchtop high-throughput sequencing
-  platforms</p></title>
-  <aug>
-    <au><snm>Loman</snm><fnm>NJ</fnm></au>
-    <au><snm>Misra</snm><fnm>RV</fnm></au>
-    <au><snm>Dallman</snm><fnm>TJ</fnm></au>
-  </aug>
-  <source>Nature …</source>
-  <pubdate>2012</pubdate>
-</bibl>
-
-<bibl id="B5">
   <title><p>Next-generation DNA sequencing methods</p></title>
   <aug>
     <au><snm>Mardis</snm><fnm>E.R.</fnm></au>
@@ -76,6 +152,331 @@ Mardis E: \textbf{Next-generation DNA sequencing methods}. \emph{Annu. Rev.
   <volume>9</volume>
   <fpage>387</fpage>
   <lpage>402</lpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>The Sorcerer II global ocean sampling expedition: northwest
+  Atlantic through eastern tropical Pacific</p></title>
+  <aug>
+    <au><snm>Rusch</snm><fnm>D.B.</fnm></au>
+    <au><snm>Halpern</snm><fnm>A.L.</fnm></au>
+    <au><snm>Sutton</snm><fnm>G.</fnm></au>
+    <au><snm>Heidelberg</snm><fnm>K.B.</fnm></au>
+    <au><snm>Williamson</snm><fnm>S.</fnm></au>
+    <au><snm>Yooseph</snm><fnm>S.</fnm></au>
+    <au><snm>Wu</snm><fnm>D.</fnm></au>
+    <au><snm>Eisen</snm><fnm>J.A.</fnm></au>
+    <au><snm>Hoffman</snm><fnm>J.M.</fnm></au>
+    <au><snm>Remington</snm><fnm>K.</fnm></au>
+  </aug>
+  <source>PLoS biology</source>
+  <pubdate>2007</pubdate>
+  <volume>5</volume>
+  <issue>3</issue>
+  <fpage>e77</fpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>A catalog of reference genomes from the human
+  microbiome</p></title>
+  <aug>
+    <au><snm>Nelson</snm><fnm>K.E.</fnm></au>
+    <au><snm>Weinstock</snm><fnm>G.M.</fnm></au>
+    <au><snm>Highlander</snm><fnm>S.K.</fnm></au>
+    <au><snm>Worley</snm><fnm>K.C.</fnm></au>
+    <au><snm>Creasy</snm><fnm>H.H.</fnm></au>
+    <au><snm>Wortman</snm><fnm>J.R.</fnm></au>
+    <au><snm>Rusch</snm><fnm>D.B.</fnm></au>
+    <au><snm>Mitreva</snm><fnm>M.</fnm></au>
+    <au><snm>Sodergren</snm><fnm>E.</fnm></au>
+    <au><snm>Chinwalla</snm><fnm>A.T.</fnm></au>
+  </aug>
+  <source>Science (New York, NY)</source>
+  <pubdate>2010</pubdate>
+  <volume>328</volume>
+  <issue>5981</issue>
+  <fpage>994</fpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>The biology workbench‚ÄîA seamless database and analysis
+  environment for the biologist</p></title>
+  <aug>
+    <au><snm>Subramaniam</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Proteins</source>
+  <pubdate>1998</pubdate>
+  <volume>32</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-2</lpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>A Web interface generator for molecular biology programs in
+  Unix</p></title>
+  <aug>
+    <au><snm>Letondal</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <pubdate>2001</pubdate>
+  <volume>17</volume>
+  <issue>1</issue>
+  <fpage>73</fpage>
+  <lpage>-82</lpage>
+</bibl>
+
+<bibl id="B9">
+  <title><p>wEMBOSS: a web interface for EMBOSS</p></title>
+  <aug>
+    <au><snm>Sarachu</snm><fnm>M</fnm></au>
+    <au><snm>Colet</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <pubdate>2005</pubdate>
+  <volume>21</volume>
+  <issue>4</issue>
+  <fpage>540</fpage>
+  <lpage>-541</lpage>
+</bibl>
+
+<bibl id="B10">
+  <title><p>Mobyle: a new full web bioinformatics framework
+  Bioinformatics</p></title>
+  <aug>
+    <au><snm>Neron</snm><fnm>B</fnm></au>
+    <au><snm>and</snm><fnm>H</fnm></au>
+    <au><snm>Maufrais</snm><fnm>C</fnm></au>
+    <au><snm>Joly</snm><fnm>N</fnm></au>
+    <au><snm>Maupetit</snm><fnm>J</fnm></au>
+    <au><snm>Letort</snm><fnm>S</fnm></au>
+    <au><snm>Carrere</snm><fnm>S</fnm></au>
+    <au><snm>Tuffery</snm><fnm>P</fnm></au>
+    <au><snm>Letondal</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <pubdate>2009</pubdate>
+  <volume>25</volume>
+  <issue>22</issue>
+  <fpage>3005</fpage>
+  <lpage>-3011</lpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>BioManager: the use of a bioinformatics web application as a
+  teaching tool in undergraduate bioinformatics training</p></title>
+  <aug>
+    <au><snm>Cattley</snm><fnm>S</fnm></au>
+    <au><snm>Arthur</snm><fnm>JW</fnm></au>
+  </aug>
+  <source>Briefings in Bioinformatics</source>
+  <pubdate>2007</pubdate>
+  <volume>8</volume>
+  <issue>6</issue>
+  <fpage>457</fpage>
+  <lpage>-465</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>Implementing bioinformatic workflows within the BioExtract
+  Server</p></title>
+  <aug>
+    <au><snm>Lushbough</snm><fnm>CM</fnm></au>
+    <au><snm>Bergman</snm><fnm>MK</fnm></au>
+    <au><snm>Lawrence</snm><fnm>C</fnm></au>
+    <au><snm>Jennewein</snm><fnm>D</fnm></au>
+    <au><snm>Volker</snm><fnm>B</fnm></au>
+  </aug>
+  <source>International Journal of Computational Biology and Drug
+  Design</source>
+  <pubdate>2008</pubdate>
+  <volume>1</volume>
+  <issue>3</issue>
+  <fpage>302</fpage>
+  <lpage>-312</lpage>
+</bibl>
+
+<bibl id="B13">
+  <title><p>The Genome Portal of the Department of Energy Joint Genome
+  Institute</p></title>
+  <aug>
+    <au><snm>Grigoriev</snm><fnm>I.V.</fnm></au>
+    <au><snm>Nordberg</snm><fnm>H.</fnm></au>
+    <au><snm>Shabalov</snm><fnm>I.</fnm></au>
+    <au><snm>Aerts</snm><fnm>A.</fnm></au>
+    <au><snm>Cantor</snm><fnm>M.</fnm></au>
+    <au><snm>Goodstein</snm><fnm>D.</fnm></au>
+    <au><snm>Kuo</snm><fnm>A.</fnm></au>
+    <au><snm>Minovitsky</snm><fnm>S.</fnm></au>
+    <au><snm>Nikitin</snm><fnm>R.</fnm></au>
+    <au><snm>Ohm</snm><fnm>R.A.</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2012</pubdate>
+  <volume>40</volume>
+  <issue>D1</issue>
+  <fpage>D26</fpage>
+  <lpage>D32</lpage>
+</bibl>
+
+<bibl id="B14">
+  <title><p>Camera 2.0: A data-centric metagenomics community infrastructure
+  driven by scientific workflows</p></title>
+  <aug>
+    <au><snm>Altintas</snm><fnm>I.</fnm></au>
+    <au><snm>Lin</snm><fnm>A.W.</fnm></au>
+    <au><snm>Chen</snm><fnm>J.</fnm></au>
+    <au><snm>Churas</snm><fnm>C.</fnm></au>
+    <au><snm>Gujral</snm><fnm>M.</fnm></au>
+    <au><snm>Sun</snm><fnm>S.</fnm></au>
+    <au><snm>Li</snm><fnm>W.</fnm></au>
+    <au><snm>Manansala</snm><fnm>R.</fnm></au>
+    <au><snm>Sedova</snm><fnm>M.</fnm></au>
+    <au><snm>Grethe</snm><fnm>J.S.</fnm></au>
+  </aug>
+  <source>Camera 2.0: A data-centric metagenomics community infrastructure
+  driven by scientific workflows</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2010</pubdate>
+  <fpage>352</fpage>
+  <lpage>359</lpage>
+</bibl>
+
+<bibl id="B15">
+  <title><p>The EBI Metagenomics Archive, Integration and Analysis
+  Resource</p></title>
+  <aug>
+    <au><snm>Hunter</snm><fnm>C.</fnm></au>
+    <au><snm>Cochrane</snm><fnm>G.</fnm></au>
+    <au><snm>Apweiler</snm><fnm>R.</fnm></au>
+    <au><snm>Hunter</snm><fnm>S.</fnm></au>
+  </aug>
+  <source>Handbook of Molecular Microbial Ecology I</source>
+  <pubdate>2011</pubdate>
+  <fpage>333</fpage>
+  <lpage>340</lpage>
+</bibl>
+
+<bibl id="B16">
+  <title><p>Subsystems-based servers for rapid annotation of genomes and
+  metagenomes</p></title>
+  <aug>
+    <au><snm>Aziz</snm><fnm>R.</fnm></au>
+  </aug>
+  <source>BMC Bioinformatics</source>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>Suppl 4</issue>
+  <fpage>O2</fpage>
+</bibl>
+
+<bibl id="B17">
+  <title><p>Galaxy: a comprehensive approach for supporting accessible,
+  reproducible, and transparent computational research in the life
+  sciences</p></title>
+  <aug>
+    <au><snm>Goecks</snm><fnm>J.</fnm></au>
+    <au><snm>Nekrutenko</snm><fnm>A.</fnm></au>
+    <au><snm>Taylor</snm><fnm>J.</fnm></au>
+  </aug>
+  <source>Genome Biol</source>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>8</issue>
+  <fpage>R86</fpage>
+</bibl>
+
+<bibl id="B18">
+  <title><p>CloVR: A virtual machine for automated and portable sequence
+  analysis from the desktop using cloud computing</p></title>
+  <aug>
+    <au><snm>Angiuoli</snm><fnm>S.V.</fnm></au>
+    <au><snm>Matalka</snm><fnm>M.</fnm></au>
+    <au><snm>Gussman</snm><fnm>A.</fnm></au>
+    <au><snm>Galens</snm><fnm>K.</fnm></au>
+    <au><snm>Vangala</snm><fnm>M.</fnm></au>
+    <au><snm>Riley</snm><fnm>D.R.</fnm></au>
+    <au><snm>Arze</snm><fnm>C.</fnm></au>
+    <au><snm>White</snm><fnm>J.R.</fnm></au>
+    <au><snm>White</snm><fnm>O.</fnm></au>
+    <au><snm>Fricke</snm><fnm>W.F.</fnm></au>
+  </aug>
+  <source>BMC Bioinformatics</source>
+  <pubdate>2011</pubdate>
+  <volume>12</volume>
+  <issue>1</issue>
+  <fpage>356</fpage>
+</bibl>
+
+<bibl id="B19">
+  <title><p>Cloud BioLinux: pre-configured and on-demand bioinformatics
+  computing for the genomics community</p></title>
+  <aug>
+    <au><snm>Krampis</snm><fnm>K.</fnm></au>
+    <au><snm>Booth</snm><fnm>T.</fnm></au>
+    <au><snm>Chapman</snm><fnm>B.</fnm></au>
+    <au><snm>Tiwari</snm><fnm>B.</fnm></au>
+    <au><snm>Bicak</snm><fnm>M.</fnm></au>
+    <au><snm>Field</snm><fnm>D.</fnm></au>
+    <au><snm>Nelson</snm><fnm>K. E.</fnm></au>
+  </aug>
+  <source>BMC Bioinformatics</source>
+  <pubdate>2012</pubdate>
+  <volume>13</volume>
+  <fpage>42</fpage>
+</bibl>
+
+<bibl id="B20">
+  <title><p>Distributed workflow-driven analysis of large-scale biological data
+  using biokepler</p></title>
+  <aug>
+    <au><snm>Altintas</snm><fnm>I.</fnm></au>
+  </aug>
+  <source>Distributed workflow-driven analysis of large-scale biological data
+  using biokepler</source>
+  <publisher>ACM</publisher>
+  <pubdate>2011</pubdate>
+  <fpage>41</fpage>
+  <lpage>42</lpage>
+</bibl>
+
+<bibl id="B21">
+  <title><p>Elastic Compute Cloud (EC2)</p></title>
+  <aug>
+    <au><snm>Services</snm><fnm>AW</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B22">
+  <title><p>Galaxy CloudMan: delivering cloud compute clusters</p></title>
+  <aug>
+    <au><snm>Afgan</snm><fnm>E.</fnm></au>
+    <au><snm>Baker</snm><fnm>D.</fnm></au>
+    <au><snm>Coraor</snm><fnm>N.</fnm></au>
+    <au><snm>Chapman</snm><fnm>B.</fnm></au>
+    <au><snm>Nekrutenko</snm><fnm>A.</fnm></au>
+    <au><snm>Taylor</snm><fnm>J.</fnm></au>
+  </aug>
+  <source>BMC Bioinformatics</source>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>Suppl 12</issue>
+  <fpage>S4</fpage>
+</bibl>
+
+<bibl id="B23">
+  <title><p>Using clouds for metagenomics: A case study</p></title>
+  <aug>
+    <au><snm>Wilkening</snm><fnm>J.</fnm></au>
+    <au><snm>Wilke</snm><fnm>A.</fnm></au>
+    <au><snm>Desai</snm><fnm>N.</fnm></au>
+    <au><snm>Meyer</snm><fnm>F.</fnm></au>
+  </aug>
+  <source>Using clouds for metagenomics: A case study</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2009</pubdate>
+  <fpage>1</fpage>
+  <lpage>6</lpage>
 </bibl>
 
 </refgrp>
