@@ -104,7 +104,7 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Eight Questions and Answers Defining Cloud Computing for Digital, Sequencing-Based Biological Research}
+\title{Six Questions and Answers Defining Cloud Computing for Digital, Sequencing-Based Biological Research}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -265,7 +265,7 @@ higher expenses than that of acquiring the computer hardware or maintaining the 
 %%
 
 \section*{Results and Discussion}
-\subsection*{Eight Questions and Answers to Define Cloud Computing Applications for Digital, Sequencing-Based Biological Research} 
+\subsection*{Six Questions and Answers to Define Cloud Computing Applications for Digital, Sequencing-Based Biological Research} 
 
 \subsubsection*{What Role can Cloud Computing play in The Digital Biology Research Era?}
 
@@ -282,10 +282,7 @@ worldwide with the ability to tap into a large pool of computational resources, 
 economic or geographic boundaries. Overall, renting computational capacity from Cloud services has the 
 potential to eliminate many of the upfront capital expenses for building information technology infrastructures 
 for next generation sequencing, and result in transformation of the analysis and data processing tasks into well 
-defined operational costs. A large capacity server with 64GB memory and 8 processor 
-(CPU) cores for example, that would suffice for most types of bioinformatic analysis costs \$2 US to rent per hour 
-on Amazon EC2 \cite{ec2price}, and researchers worldwide can rent if required a number of servers for large-scale 
-data analysis. 
+defined operational costs. 
 
 The current approach of data warehousing in public databases such as the Sequence Read Archive (SRA,\cite{sra}) 
 provides little value to researchers that lack access to computational resources or informatics expertise. Leveraging
@@ -314,7 +311,7 @@ pre-configured software from the Cloud service.
 Established research institutes that perform sequencing of new genomes on a regular basis, and consecutively have
 well-funded bioinformatic cores to process the sequence data, have the resource and expertise to deliver to the community 
 beyond the production of finished genomes at each center and their upload to publicly-accessible repositories such as 
-NCBI \cite{}. This can be achieved by capturing and distributing the bioinformatics expertise developed during each
+NCBI \cite{Pruitt2009}. This can be achieved by capturing and distributing the bioinformatics expertise developed during each
 sequencing project, by making publicly available on the Cloud and will contain all software and customized data analysis
 pipelines developed for sequence analysis at each institute. Currently, many of these centers deposit developed 
 software on open-source code repositories such as SourceForge \cite{sourceforge} or GitHub \cite{github}. One major 
@@ -349,62 +346,161 @@ be processed.
 On the other hand, web portals that can analyze large-scale bioinformatic datasets, have been developed by 
 well-funded institutions including IMG/M \cite{Grigoriev2012}, CAMERA \cite{Altintas2010}, EBI \cite{Hunter2011} 
 and MG-RAST \cite{Aziz2010}. While these portals are backed by considerable compute resources and data storage,  
-due to their centralized structure they cannot possibly support increasing numbers of smaller laboratories that 
-purchase benchtop sequencers and produce genemic datasets. Furthermore, researchers are required to go through 
+due to their centralized approach they cannot possibly support the increasing numbers of laboratories that 
+purchase benchtop sequencers and produce genomic datasets. Furthermore, researchers are required to go through 
 an application process in order to get access for uploading their data and have allocated computational capacity  
-for data analysis under their account. Another major drawback is that the software for most of these sites is not 
+for data analysis within their account. Another major drawback is that the software for most of these sites is not 
 open-source, while researchers often have to perform multiple submitions of their datasets to all the different 
 portals, since each offers a different sequence data analysis pipeline.   
 
 An alternative to these centralized services are Cloud-based, scalable data analysis portals such as Galaxy
 \cite{Goecks2010}, CloVR \cite{Angiuoli2011}, Cloud BioLinux \cite{Krampis2012} and BioKepler \cite{Altintas2011} 
 that are open-source and accessible to any laboratory or research group through the Amazon EC2 computer Cloud 
-\cite{awsec2}. The Galaxy bioinformatics workbench, includes a range of software, from scripts that extract 
-entries from FASTA files, to tools for processing next-generation sequence data. Galaxy is a self-contained 
+\cite{awsec2}. The Galaxy bioinformatics workbench, includes a range of tools, from scripts that extract 
+entries from sequence files, to software for processing next-generation sequence data. Galaxy is a self-contained 
 platform including a web portal software stack and a set of bioinformatics tools with graphical user interfaces, 
 in addition to an intuitive, drag and drop canvas for composing complex data analysis workflows. Galaxy was 
 designed as a framework for easy deployment through a web portal of command-line only software that lacks a user 
 interface, and for that purpose provides a standardized method to deploy through the web portal command-line only
-bioinformatics tools with minimal expertise by editing simple configuration scripts written in the eXtensible 
-Markup Language (XML). Furthermore, it allows to leverage computational capacity beyond a single compute node 
-through the Galaxy-Cloudman \cite{Afgan2010} framework that provides compute server clusters for parallel data 
-processing on Cloud services such as Amazon EC2.
+bioinformatics tools with only minimal expertise for editing simple configuration files describing the interface 
+\cite{galaxywiki}.  Furthermore, it allows to leverage computational capacity beyond a single compute server 
+through the Galaxy-Cloudman \cite{Afgan2010} framework that provides compute clusters for parallel data processing 
+on Cloud services such as Amazon EC2.
 
-Another public offering for computing on the Cloud is through our own work on Cloud Biolinux \cite{Krampis2012},
+Another community-centered, public access offering for computing on the Cloud is through our own Cloud Biolinux \cite{Krampis2012},
 \cite{cloudbio}, that provides on-demand bioinformatics computing and a set of pre-configured sequence analysis 
 tools within a high-performance Virtual Machine (VM) server that runs on Cloud computing services such as Amazon 
-EC2. The project is targeted to researchers that do not have access to a large-scale informatics infrastructure 
-for sequence data analysis, but can rent instead computational capacity from Cloud services. Users can access 
-the tools by starting the Cloud BioLinux VM through the Amazon cloud console web page \cite{console}, while 
+EC2. The project is targeted to researchers that without access to large-scale informatics infrastructures
+for sequencing data analysis, but can rent instead computational capacity from Cloud services. Users can access 
+the tools by starting the Cloud BioLinux VM through the Amazon cloud console web page \cite{console}, and 
 easily perform large-scale data analysis as we have demonstrated with the 1000 Human genomes data \cite{1000tube1},
-\cite{1000tube2},\cite{Clarke2012}. The Cloud BioLinux VM is open-source, can be downloaded and modified, while 
-advanced users can install and run it on a private instance of the Eucalyptus \cite{euca} or Openstack 
-\cite{openstack} Cloud platforms. A diverse community of researchers from both the US
+\cite{1000tube2},\cite{Clarke2012}. 
+
+
+The Cloud BioLinux VM is open-source, can be downloaded and modified, while advanced users can install and 
+run it on a private instance of the Eucalyptus \cite{euca} or Openstack \cite{openstack} Cloud platforms. 
+A diverse community of researchers from both the US
 (Massachusetts General Hospital, Harvard School of Public Health, Emory University) and Europe (National
 Environmental Research Center, King's College London, Denmark Technical University, Netherlands Wageninen
 University) has been already established around the project \cite{googlegroup}. Finally, we have recently 
 expanded Cloud BioLinux by adding support for advanced users through a developer's framework for building 
-and distributing customized bioinformatics VMs, that provides a toolkit for development of Cloud-based 
+and distributing customized bioinformatics VMs, providing a toolkit for development of Cloud-based 
 bioinformatics data analysis solutions. The framework includes a software management system that automates 
-of building a bioinformatics VM with a set of tools specified by the user, seamlessly deploys it across different
-Cloud platforms, and it is freely available from the GitHub code repository \cite{fabric}.  The overall goal is
+building a VM with a set of bioinformatics tools specified by the user and seamlessly deploys it across different
+Cloud platforms. The framework is freely available from the GitHub code repository \cite{fabric}.  The overall goal is
 to offer a platform for maintaining a range of specialized VM setups for serving different computing needs
 within the bioinformatics community, and allow researchers to focus on the next challenges of providing data,
 documentation, and the development of scalable analysis pipelines. 
 
-While the platforms presented above provide excellent sequence analysis suites that are widely accessible 
-on the Cloud, they simply package existing bioinformatics applications within VM servers. This is a great 
-solution for smaller laboratories that lack informatics infrastructure for sequencing data analysis, since 
-they can get access to pre-configured software and on-demand computing platforms using Cloud infrastructures.  
-However, these VM server simply make accessible existing bioinformatics applications with monolithic designs that
+The solutions presented above provide public access to scalable sequence analysis for the genomic community, 
+and users can get access to pre-configured software and on-demand computing platforms using Cloud infrastructures.
+While this is a great solution for smaller laboratories that lack informatics resources for sequencing data analysis,   
+these cloud solutions simply offer within VM servers bioinformatics applications with monolithic designs that 
 process data serially, and are not designed to leverage specific characteristics of Cloud computing platforms
-such as highly parallelism and distributed computing.  On the other hand, specialized bioinformatics applications 
-and pipelines that have been implemented at the big bioinformatics centers and which scale in parallel for large 
-sequence datasets, are usually coupled with specific cluster computing hardware and storage infrastructure at each 
-center, requiring extended effort to refactor the code and run data analysis pipelines on the Cloud \cite{Wilkening2009}.
+such as highly parallelism and distributed computing.  On the other hand, specialized, high-performance bioinformatics 
+applications and data pipelines that have been implemented by bioinformatics core teams at large institutions,
+are usually coupled with specific cluster computing hardware and data storage infrastructure at each institution, 
+requiring extended effort to refactor the code and run data analysis pipelines on the Cloud \cite{Wilkening2009}.
 
 
 \subsubsection*{Unique characteristics of Cloud Computing versus traditional Bioinformatics Infrastructures}
+
+One major component of cloud computing technology is virtualization \cite{Uhling2005} which allows entire 
+compute servers including the operating system and all the necessary software packages for data analysis 
+to be archived within a Virtual Machine (VM). A VM is an emulation of a compute server, with virtual 
+processors, memory and storage capacity, in the form of a single binary file that can run 
+independently of the underlying hardware architecture, on both Cloud and desktop computers. 
+Since all software components and dependencies are encapsulated  within the VM, it is possible to 
+distribute data analysis pipelines, databases, websites, in addition to all required code libraries and 
+configuration files in a ready-to-execute, easy-to-download and compact format. This can address  
+obstacles researchers often encounter when trying to install and use open-source bioinformatics software 
+with complex dependencies and installation procedures, therefore making bioinformatics tools widely 
+accessible to the research community. Cloud services such as Amazon EC2 \cite{awsec2} provide high-
+performance computer hardware with a virtualization layer, where users can run VM servers. 
+
+In our experience with development of bioinformatics projects, it is difficult to provide long-term 
+support or maintain web portals with data analysis tools and online databases, especially 
+for projects funded by government grants with an expiration date. Alternatively, by using Cloud VM servers
+to build the system and subsequently creating Whole System Snapshots (WSSE,\cite{Dudley2010,
+Krampis2012}) bioinformatics web portals and online databases that are build on the Cloud can be 
+preserved in their precise state when the snapshot was created. A snapshot essentially is a compressed, 
+exact replica of a VM, capturing all changes made inside a VM server up to the point in time when the 
+snapshot is created. These changes include installed software and bioinformatic pipelines, uploaded data 
+and analysis results generated by running the pipelines. A snapshot is an executable binary file like 
+the original VM, and using a snapshot as template the virtualization meachanism of a Cloud platform 
+can instantiate replicas of the VM servers. Furthermore, a user can set her snapshots to be publicly 
+accessible within the Cloud or share for example with specific users (see for example \cite{ebs}), 
+therefore sharing with collaborating researchers both the data and software tools in a ready to execute 
+and compact format. 
+
+Regarding cost, on Amazon EC2 for example VM snapshots cost \$0.01 US per GigaByte(GB) of storage used 
+per month. We see therefore that even when renting capacity from cloud provider the cost is minimal, 
+and Pricipal Investigators can allocate on their budgets an amount of informatics expenses that will 
+allow maintaining VM server snapshots for a few years past the end of the funding cycle for a project 
+involving data release online though a portal or website-accessible database. Unlike the traditional 
+approach where websites are decommissioned shortly
+after the funding for a project ends, with this approach researchers in the community become able to 
+lease computing time on a Cloud computing service provider or install on a local Cloud, where they
+can create VM server instances from the archived snapshots. Furthermore for users lacking access to 
+local compute clusters and are strained for funds to cover the informatics costs, renting a VM from 
+Cloud providers for data analysis and then creating compressed snapshots to reduce costs for long-term 
+storage, offers an economical and flexible solution throughout and past the life cycle of a research project.
+
+Finally, leveraging virtualization and VM technology can provide two additional advantages: first, 
+by placing data and pre-configured software on a publicly accessible, Cloud-based VM, allows for easy 
+reproducibility of the performed bioinformatic data analysis. For example, following publication of 
+assembly and annotation results from a genome sequencing project, researchers in the community can re-run
+part of the bioinformatic analysis and change algorithmic parameters to fine tune outputs such as 
+gene predictions. By lowering the barriers of technical expertise and access to informatics resources 
+required for performing bioinformatics computing is a key aspect for researchers to extract value 
+from the data released from sequencing projects, while also allowing the community to build additional 
+value on top of available data as similar studies take place. Second, researchers have the capability 
+to scale computational resources based on the amount of data generated within a sequencing project, 
+through provision of an appropriate number of VM servers on the Cloud or local compute hardware. In this
+case usage of resources can be scaled accordingly during the different analysis phases: while 
+initially extensive computing resources will be necessary to perform assembly and annotation of the sequence 
+data, the resources (number of VM servers) can be reduced for the less computationally intensive tasks such 
+as summarization and visualization of the sequence annotations. After funding has ended, a lab can further 
+scale down the computational resources and cut its informatics costs by archiving the VMs using Whole 
+System Snapshots \cite{Dudley2010}.
+
+
+
+\subsubsection*{What the Public, Private, Open-Source or Commercial Clouds Available to Biologists Today ?} 
+
+Amazon Web Services (ref) is one of the largest cloud computing vendors, providing a compute cloud  based on the same infrastructure which powers Amazon's e-commerce web sites, executing millions of transactions monthly for their customers. From their cloud computing offering, services that can be utilized to build Science as a Service application include the Amazon Elastic Compute cloud (EC2),  Elastic Block Store and Simple Storage Service (S3), and SimpleDB. These web services offer respectively compute cycles, data storage and database functionality, and are not tied to any specific operating system, or programming model. A large developer community with a lot of expertise exists around each type of the Amazon Web Services (dev. forums ref) mentioned above, and from our experience technical issues with the services for which questions where posted on the forums, were answered in a day or less.
+
+A large capacity server with 64GB memory and 8 processor 
+(CPU) cores for example, that would suffice for most types of bioinformatic analysis costs \$2 US to rent per hour 
+on Amazon EC2 \cite{ec2price}, and researchers worldwide can rent if required a number of servers for large-scale 
+data analysis. 
+
+ur system will not be limited only to the Amazon EC2 Cloud platform, since researchers that have access to a
+local cluster at their home institution will have the option to download the VM and run, without being
+required to perform any software installation.  The only dependency will be a virtualization layer that can
+run the VM on the cluster such as for example the OpenStack open-source Cloud (http://www.openstack.org).
+OpenStack is available as part of widely used Ubuntu Linux (http://www.ubuntu.com/Cloud) and included by
+default on a compute cluster set-up to run this operating system, while it can be easily installed as a
+package on clusters running other Linux versions. Alternatively, for researchers that do not have access to
+local compute Clouds, OpenStack installations can be accessed through the government-funded Argonne National
+Lab Magellan Cloud http://www.alcf.anl.gov/magellan) that provides compute allocations to researchers, in
+addition to a number of academic computing centers in both the US and abroad
+(http://openstack.org/user-stories/), or commercial Cloud providers such as RackSpace.
+
+Alternatively, 
+researchers with access to data centers at their home institutions, have also the option to download 
+and run a VM on a private Cloud such as Eucalyptus \cite{euca} or OpenStack \cite{openstack} that 
+are open-source replicas of Amazon EC2. Nonetheless, even in this case researchers are not required
+to configure software since everything comes pre-installed and ready-to-execute in the VM, allowing 
+them to leverage available bioinformatics tools and data analysis pipelines with minimal effort \cite{Krampis2012}.
+
+VM servers with the pre-configured pipelines and data will be publicly available for download. Researchers
+will have the option to execute them on a desktop computer, using virtualization software such as VirtualBox
+(http://www.virtualbox.org). VirtualBox is free and can be installed with a single step on Windows, Mac or
+Linux desktop computers.  Alternatively, research teams with informatics expertise and access to a local
+cluster could choose to download our VM servers and perform large-scale data analysis by running them on a
+private Cloud installation, after installing Eucalyptus or OpenStack and converting part of the cluster to a
+local Cloud. 
 
 Data storage using a Cloud service has the advantage that large-scale sequencing datasets can be easily
 exchanged among collaborators worldwide. Inherent in the design of Amazon S3 (http://aws.amazon.com/s3)
@@ -422,92 +518,37 @@ computation on these data volumes directly using pre-configured VMs on Amazon EC
 Cloud Biolinux, and just pay for the compute and additional storage resources they use. We are in negotiations
 with Amazon to get support for hosting the data from this project as part of this program.
 
-customers of our service that would like to perform extensive computational analysis of the assembled genomes
-but do not have access to a cluster, we will offer the option to upload the VM portal and assembly data on the
-our VM with the pre-installed tools on the Amazon EC2 Cloud, they will only need to follow four simple steps
-through their web browser: visit the Amazon Cloud website and create a new account, start the VM execution
-âwizardâ through the Cloud's control console [58], choose computational capacity for the VM (memory,
-processor, cores, storage capacity), and specify username and password credentials for accessing the running
-VM. Each running VM receives a unique web address, and by using their web browser to access the address, a
-researcher can login to the portal interface with the assembly tools. These four steps are described in detail
-in our Cloud BioLinux publication and the project's documentation [59].
 
-Stein LD. (2010) The case for Cloud computing in genome informatics. Genome biology, 2010, 11, 207+ 
+\subsubsection*{Software or Infrastructure as A Service on the Cloud ?}
 
-Amazon EC2 Cloud pricing : http://aws.amazon.com/ec2/pricing  
-
-Amazon EC2 Cloud console : https://console.aws.amazon.com 
-
-Cloud BioLinux project documentation : http://tinyurl.com/Cloud-docu
+Can Non-Computationally Savvy Researchers Access Cloud Informatics Infrastructures? 
 
 
-The enabling technology towards is direction is virtualization, which allows data analysis pipelines,
-databases, website portals and all software dependencies including entire operating systems, code libraries
-and configuration files to be encapsulated in Virtual Machines (VMs). A Virtual Machine is essentially an
-emulation of a compute server, albeit a full-featured one, with virtual processors, memory and storage
-capacity, in the form of a single binary file. Cloud services such as Amazon web-services
-(http://aws.amazon.com) offer high-performance computer hardware with a virtualization layer, upon which a
-user executes VMs.  Since the VMs are full-featured compute servers  in the form of a single binary file,
-researchers with access to local computing clusters have also the option to download and run the VM servers
-and therefore instantiate a local version of the AIP on a private Cloud. For example, a researcher can install
-the Eucalyptus or OpenStack Cloud (http://open.eucalyptus.com, http://www.openstack.org) that are an
-open-source replicas of the Amazon Cloud on their clusters, while also foregoing the need to perform any
-software installation since the VMs contain pre-installed all required dependencies for running the AIP.
+Software as a Service (SaaS, \cite{papazoglou2003}) ready to execute, but users have minimal control.
 
-Meanwhile advances in cyber-infrastructure and information technology are changing the landscape of biological
-computing. Virtualization technologies allow entire compute servers including the operating system replete
-with all the necessary software packages for data analysis, to be archived within a Virtual Machine (VM). A VM
-is an emulation of a compute server, with virtual processors, memory and storage capacity, in the form of a
-single binary file that can be executed independently of the hardware architecture available [3]. Since all
-software components and dependencies are encapsulated within the VM, it is possible to distribute
-pre-installed, ready-to-execute bioinformatics tools and data analysis pipelines, in the format of a single
-binary, down-loadable VM file. This addresses one of the main hurdles to make open-source software with
-complex dependencies and installation procedures widely accessible to the research community.  Virtualization
-technologies led to the development of Cloud computing services, where remote computer server farms can be
-rented on an hourly basis by researchers and used for scalable, on-demand computation. Cloud services offer
-high-performance computer hardware with virtualization, upon which a user executes VM servers [3]. 
+The work for creating JCVI's Cloud BioLinux, was to offer software tools to the bioinformatics community was driven by our vision of 
+A concept of Science as a Service (ScaaS) for computational analysis of scientific datasets, could be easily 
+defined along the lines of the well established model of Software as a Service (SaaS, \cite{papazoglou2003}), 
+where a provider offers pre-installed and configured applications on a local or remote data centers. Users of 
+ScaaS do not need to provision any computer hardware other than a desktop computer and a network connection, 
+which can lead to significant cost savings especially in the case of applications involving only occasional 
+large-scale computations that cannot justify significant investment in hardware. Users simply access the 
+software through a browser or a desktop client application that connects to a remote server Application 
+Programming Interface (API), do not need need expertise for performing specialized installations, configuration 
+or upgrades that are all taken care by the SaaS provider.  
 
-Following the concept of Whole System Snapshot Exhange (WSSE, Dudley and Butte 2010) we will create Virtual
-Machines (VMs) that contain replicas of the bioinformatics systems used for data analysis in this study. The
-VMs will be made publicly available on the Amazon EC2 Cloud computing platform, for the purpose of fulfilling
-two goals: first, to allow reproducibility of the bioinformatic analysis performed in this project through
-placing the data along with pre-configured software, on a Cloud compute platform accessible by the worldwide
-genomics community outside of institutional, economic or national boundaries. Given the complexity of  the
-current project, following publication of our results we expect for example researchers to require re-running
-part of the bioinformatic analysis for adjusting the algorithmic parameters. Second, as bioinformatics
-computing is a key aspect for researchers in the community to extract value from the data released from this
-project, while also build additional value on top as similar studies are performed or by integrating with
-results from existing studies, placing our data on a publicly accessible compute platform will facilitate this
-process. Besides the current study, we believe that this approach will demonstrate a new approach for sharing
-research results by distributing  the data together with the computational capacity, which will provide an
-option for researchers from smaller institutions without access to extensive infrastructure for their data
-analysis needs.
+The need for Science as a Service (ScaaS) model for performing scientific computing, is most apparent in the 
+bioinformatics community, where there is significant fragmentation of access methods for both software and datasets 
+\cite{stein}. While some individual laboratories for example set-up websites that provide online access to the 
+tools, or researchers can use mainstream applications such as BLAST \cite{altchul} through centralized portals
+such as NCBI \cite{}, much of the software developed as part of publicly funded research is available as source 
+code for download and datasets as compressed files on FTP sites. All these options have significant disadvantages,  
+such as servers with fixed computational capacity posing a limitation on the dataset size that can be processed. 
+This puts the burden to scientists for provisioning computational infrastructure and technical expertise to compile
+software and perform complex installation procedures, while also in some cases need access to high performance computing 
+servers for specialized bioinformatics tasks such as genome assembly. In the current work we combined the convenience 
+of SaaS for end-users with the power of cloud computing, in order to bring pre-installed specialized bioinformatics application which need large computational capacity such as those for genome assembly.
 
- For researchers that would like to leverage the advantages of a VM with the pre-installed assembly portal for
- working with the completed assemblies but consider the public Cloud as not secure option, we will offer the
- alternative of returning to them by mail an external hard drive with a VM containing with the portal and
- assembly data. Users will then be able to load and execute the VM on a local computer cluster with a
- Eucalyptus/OpenStack Cloud or on a PC using Virtualbox. We are currently offering a similar solution with
- Cloud BioLinux [3], where the project's VM is available for download and execution on a local Cloud or a PC
- from our website [4].  Upon local execution of a VM users will simply need to point their browser to the
- portal's Internet or local IP address [55] assigned automatically by either the Cloud or Virtualbox (Fig.1B).
- The IP address is available through each Cloud platform's or the Virtualbox software administrative
- interface, and we will provide extensive documentation (see subsequent paragraph) on uploading, running and
- accessing a local VM on the different platforms by extending the available Cloud BioLinux project
- documentation.
-
-In our experience, there is no ideal solution for being able to provide long-term support and maintaining
-hardware servers that provide public access to bioinformatics software, especially once the funding cycle of a
-project runs out.  By using VMs however, we can preserve an exact replica of the AIP portal and databases in
-its precise state at the time when the VM was generated. This allows us to archive the system, and users have
-the ability to re-instantiate AIP to a fully functional state at any time in the future by installing a local
-Cloud or leasing computing time on the Amazon Cloud. Our approach offers a way to keep the system readily
-accessible with minimal cost (only hosting the VMs on an FTP site, which can be long-term provided by JCVIâs
-IT for free) past the funding cycle, while researchers who receive funding for their own projects can either
-allocate on their budget compute costs on the Amazon Cloud or budget in their grant hardware for a local
-Cloud.
-
-\subsubsection*{Available Options to Buying Software as A Service on the Cloud ?}
 
 During the past year, both public and commercial offerings pre-configured sequence analysis applications on
 the Cloud have become available. On the commercial side, DNAnexus (online ref.  3) currently includes tools
@@ -519,31 +560,35 @@ bioinformatics software suite that used to be bundled together with the computer
 open-source tools such as EMBOSS, HMMER, BLAST and the R statistical package, also on the EC2 Cloud platform.
 And many consulting firms such as cycle computing and BioTeam provide custom solutions at high cost.
 
+Illumina, Broad cloud, what else ?
 
-\subsubsection*{Can Non-Computationally Savvy Researchers Easily Access the Cloud?} Text for this sub-section.
-More results \ldots
+Infrastructure as a Service (IaaS, \cite{}) users have more control but more flexibility to customize resources
+to their needs.
 
-VM servers with the pre-configured pipelines and data will be publicly available for download. Researchers
-will have the option to execute them on a desktop computer, using virtualization software such as VirtualBox
-(http://www.virtualbox.org). VirtualBox is free and can be installed with a single step on Windows, Mac or
-Linux desktop computers.  Alternatively, research teams with informatics expertise and access to a local
-cluster could choose to download our VM servers and perform large-scale data analysis by running them on a
-private Cloud installation, after installing Eucalyptus or OpenStack and converting part of the cluster to a
-local Cloud. 
+A user can start and access the OSMF Frame VM instance in three simple steps by using the Amazon EC2 cloud console graphical user interface that is accessible via a web browser: first the user signs up for an Amazon EC2 account and after she obtains the credentials logins to the cloud console (http://aws.amazon.com/console);  within the Amazon console the users clicks the “Launch Instance Wizard” button and specifies the OSMF Frame VM volume identifier (our project website will provide the VM identifier for the most recent update, but the latest VM will be also identifiable by the meta-data added to the volume); following the steps of the wizard within the web browser the users selects computational capacity and storage for the OSMF VM, and specifies a username and password for the OSMF WebInterface login (Fig.1, additional users can be created after the initial login); finally, once the wizard steps are complete and the VM status shows “running”, the user copies the assigned URL address of the VM from the Amazon cloud console in a new web browser window in order to access the OSMF interface. The process of starting a VM on the cloud and connecting to it has been documented for the JCVI Cloud BioLinux VM instances (REF), but nonetheless more detailed documentation, video tutorials and user support will be available from the proposed project's website and discussion forum (see Education & Outreach section).
 
-\subsubsection*{What the Public, Private, Open-Source or Commercial Clouds Available to Biologists Today ?} 
 
-ur system will not be limited only to the Amazon EC2 Cloud platform, since researchers that have access to a
-local cluster at their home institution will have the option to download the VM and run, without being
-required to perform any software installation.  The only dependency will be a virtualization layer that can
-run the VM on the cluster such as for example the OpenStack open-source Cloud (http://www.openstack.org).
-OpenStack is available as part of widely used Ubuntu Linux (http://www.ubuntu.com/Cloud) and included by
-default on a compute cluster set-up to run this operating system, while it can be easily installed as a
-package on clusters running other Linux versions. Alternatively, for researchers that do not have access to
-local compute Clouds, OpenStack installations can be accessed through the government-funded Argonne National
-Lab Magellan Cloud http://www.alcf.anl.gov/magellan) that provides compute allocations to researchers, in
-addition to a number of academic computing centers in both the US and abroad
-(http://openstack.org/user-stories/), or commercial Cloud providers such as RackSpace.
+For researchers that would like to leverage the advantages of a VM with the pre-installed assembly portal for
+working with the completed assemblies but consider the public Cloud as not secure option, we will offer the
+alternative of returning to them by mail an external hard drive with a VM containing with the portal and
+assembly data. Users will then be able to load and execute the VM on a local computer cluster with a
+Eucalyptus/OpenStack Cloud or on a PC using Virtualbox. We are currently offering a similar solution with
+Cloud BioLinux [3], where the project's VM is available for download and execution on a local Cloud or a PC
+from our website [4].  Upon local execution of a VM users will simply need to point their browser to the
+portal's Internet or local IP address [55] assigned automatically by either the Cloud or Virtualbox (Fig.1B).
+The IP address is available through each Cloud platform's or the Virtualbox software administrative
+interface, and we will provide extensive documentation (see subsequent paragraph) on uploading, running and
+accessing a local VM on the different platforms by extending the available Cloud BioLinux project
+documentation.
+
+An intuitive \cite{youtube}
+our VM with the pre-installed tools on the Amazon EC2 Cloud, they will only need to follow four simple steps
+through their web browser: visit the Amazon Cloud website and create a new account, start the VM execution
+wizard through the Cloud's control console [58], choose computational capacity for the VM (memory,
+processor, cores, storage capacity), and specify username and password credentials for accessing the running
+VM. Each running VM receives a unique web address, and by using their web browser to access the address, a
+researcher can login to the portal interface with the assembly tools. These four steps are described in detail
+in our Cloud BioLinux publication and the project's documentation [59].
 
 
 \subsubsection*{Which Factors Challenge Adoption of Cloud-Based Solutions for Bioinformatics }

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.9)  20 SEP 2012 11:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.9)  9 OCT 2012 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -71,33 +71,91 @@ Overfull \hbox (9.99998pt too wide) in paragraph at lines 136--136
 
 LaTeX Warning: Citation `Metzker2009' on page 1 undefined on input line 157.
 
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ô in font cmr10!
 
-LaTeX Warning: Citation `Loman2012' on page 1 undefined on input line 218.
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 201.
 
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ì in font cmr10!
+
+
+LaTeX Warning: Citation `venterdublin' on page 1 undefined on input line 204.
+
+
+LaTeX Warning: Citation `Schrodinger1992' on page 1 undefined on input line 204
+.
+
+
+LaTeX Warning: Citation `Gibson2010' on page 1 undefined on input line 205.
+
+
+LaTeX Warning: Citation `PacBio' on page 1 undefined on input line 214.
+
 [1
 
 {/usr/local/texlive/2011basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Citation `johnson2008ncbi' on page 2 undefined on input line 248
+LaTeX Warning: Citation `Loman2012' on page 2 undefined on input line 219.
+
+
+LaTeX Warning: Citation `johnson2008ncbi' on page 2 undefined on input line 238
 .
 
-[2] [3]
 
-LaTeX Warning: Citation `cloudbio' on page 4 undefined on input line 315.
+LaTeX Warning: Citation `Pruitt2009' on page 2 undefined on input line 253.
 
-[4] [5] [6]
+[2]
+
+LaTeX Warning: Citation `ec2price' on page 3 undefined on input line 277.
+
+
+LaTeX Warning: Citation `ec2regions' on page 3 undefined on input line 280.
+
+
+LaTeX Warning: Citation `ec2price' on page 3 undefined on input line 287.
+
+[3]
+
+LaTeX Warning: Citation `sra' on page 4 undefined on input line 290.
+
+
+LaTeX Warning: Citation `clarke2012' on page 4 undefined on input line 298.
+
+
+LaTeX Warning: Citation `1000tube1' on page 4 undefined on input line 301.
+
+
+LaTeX Warning: Citation `1000tube2' on page 4 undefined on input line 301.
+
+
+LaTeX Warning: Citation `Meyer2006' on page 4 undefined on input line 306.
+
+
+LaTeX Warning: Citation `sourceforge' on page 4 undefined on input line 320.
+
+
+LaTeX Warning: Citation `github' on page 4 undefined on input line 320.
+
+[4] [5]
+
+LaTeX Warning: Citation `galaxywiki' on page 6 undefined on input line 369.
+
+
+LaTeX Warning: Citation `cloudbio' on page 6 undefined on input line 374.
+
+
+LaTeX Warning: Citation `console' on page 6 undefined on input line 378.
+
+
+LaTeX Warning: Citation `1000tube1' on page 6 undefined on input line 379.
+
+
+LaTeX Warning: Citation `1000tube2' on page 6 undefined on input line 380.
+
+
+LaTeX Warning: Citation `Clarke2012' on page 6 undefined on input line 380.
+
+
+LaTeX Warning: Citation `youtube' on page 6 undefined on input line 380.
+
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ¢ in font cmr10!
 Missing character: There is no ¬ in font cmr10!
@@ -110,27 +168,27 @@ Missing character: There is no ¬ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ù in font cmr10!
- [7]
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no ù in font cmr10!
- [8] [9] [10]
+[6]
+
+LaTeX Warning: Citation `euca' on page 7 undefined on input line 391.
+
+
+LaTeX Warning: Citation `openstack' on page 7 undefined on input line 391.
+
+
+LaTeX Warning: Citation `googlegroup' on page 7 undefined on input line 395.
+
+
+LaTeX Warning: Citation `fabric' on page 7 undefined on input line 400.
+
+[7] [8]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ¢ in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ô in font cmr10!
- [11] (./bmc_article.bbl [12]
+ [9] [10] [11] [12] (./bmc_article.bbl
 Missing character: There is no ‚ in font cmbx9!
 Missing character: There is no Ä in font cmbx9!
 Missing character: There is no ö in font cmbx9!
@@ -138,20 +196,19 @@ Missing character: There is no √ in font cmbx9!
 Missing character: There is no Ñ in font cmbx9!
 Missing character: There is no √ in font cmbx9!
 Missing character: There is no Æ in font cmbx9!
-) [13] [14]
-(./bmc_article.aux)
+ [13]) [14] (./bmc_article.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 461 strings out of 494752
- 5446 string characters out of 3171021
- 56590 words of memory out of 3000000
- 3728 multiletter control sequences out of 15000+200000
- 10337 words of font info for 36 fonts, out of 3000000 for 9000
+ 486 strings out of 494752
+ 5721 string characters out of 3171021
+ 53959 words of memory out of 3000000
+ 3752 multiletter control sequences out of 15000+200000
+ 10693 words of font info for 37 fonts, out of 3000000 for 9000
  166 hyphenation exceptions out of 8191
- 29i,5n,21p,216b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,5n,21p,216b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx9.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/c
@@ -162,13 +219,14 @@ fonts/cm/cmss10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmss12.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmss8.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2011basic/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011basic/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on bmc_article.pdf (14 pages, 184912 bytes).
+/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2011basic/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2011basic/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on bmc_article.pdf (14 pages, 196275 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
