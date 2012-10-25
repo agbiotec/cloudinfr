@@ -4,6 +4,19 @@
 \providecommand{\url}[1]{[#1]}
 \providecommand{\urlprefix}{}
 
+\bibitem{venterdublin}
+\emph{Syntetic Biology, Euroscience Open Forum 2012}.
+
+\bibitem{Schrodinger1992}
+Schr�dinger E: \emph{What is life?: With mind and matter and autobiographical
+  sketches}. Cambridge University Press 1992.
+
+\bibitem{Gibson2010}
+Gibson D, Glass J, Lartigue C, Noskov V, Chuang R, Algire M, Benders G,
+  Montague M, Ma L, Moodie M: \textbf{Creation of a bacterial cell controlled
+  by a chemically synthesized genome}. \emph{science} 2010,
+  \textbf{329}(5987):52--56.
+
 \bibitem{Mason2012}
 Mason C, Elemento O: \textbf{Faster sequencers, larger datasets, new
   challenges}. \emph{Genome Biology} 2012.
@@ -13,6 +26,9 @@ Illumina I: \textbf{Technical Specifications of Illumina Sequencers}.
 
 \bibitem{solid5500}
 Inc AB: \textbf{The SOLiD 5500 sequencing system.}
+
+\bibitem{PacBio}
+Inc PB: \textbf{PacBio RS sequencing technology}.
 
 \bibitem{Mardis2008}
 Mardis E: \textbf{Next-generation DNA sequencing methods}. \emph{Annu. Rev.
@@ -30,10 +46,43 @@ Nelson K, Weinstock G, Highlander S, Worley K, Creasy H, Wortman J, Rusch D,
   from the human microbiome}. \emph{Science (New York, NY)} 2010,
   \textbf{328}(5981):994.
 
+\bibitem{Pruitt2009}
+Pruitt K, Tatusova T, Klimke W, Maglott D: \textbf{NCBI Reference Sequences:
+  current status, policy and new initiatives}. \emph{Nucleic acids research}
+  2009, \textbf{37}(suppl 1):D32--D36.
+
+\bibitem{sra}
+Information NCFB: \textbf{Sequence Read Archive}.
+
+\bibitem{awsec2}
+Services AW: \textbf{Elastic Compute Cloud (EC2)}.
+
+\bibitem{ec2price}
+Services AW: \textbf{EC2 Pricing}.
+
+\bibitem{clarke2012}
+Clarke L, Zheng-Bradley X, Smith R, Kulesha E, Xiao C, Toneva I, Vaughan B,
+  Preuss D, Leinonen R, Shumway M: \textbf{The 1000 Genomes Project: data
+  management and community access}. \emph{nature methods} 2012,
+  \textbf{9}(5):459--462.
+
+\bibitem{1000tube1}
+Krampis K: .
+
+\bibitem{1000tube2}
+Krampis K: .
+
+\bibitem{Krampis2012}
+Krampis K, Booth T, Chapman B, Tiwari B, Bicak M, Field D, Nelson KE:
+  \textbf{Cloud BioLinux: pre-configured and on-demand bioinformatics computing
+  for the genomics community}. \emph{BMC Bioinformatics} 2012, \textbf{13}:42.
+
+\bibitem{github}
+Inc G: \textbf{Open-Source code repository}.
+
 \bibitem{Subramaniam1998Biology}
-Subramaniam S: \textbf{The biology workbench‚ÄîA seamless database and
-  analysis environment for the biologist}. \emph{Proteins} 1998,
-  \textbf{32}:1--2.
+Subramaniam S: \textbf{The biology workbench—A seamless database and analysis
+  environment for the biologist}. \emph{Proteins} 1998, \textbf{32}:1--2.
 
 \bibitem{Letondal2001Web}
 Letondal C: \textbf{A Web interface generator for molecular biology programs in
@@ -90,25 +139,44 @@ Angiuoli S, Matalka M, Gussman A, Galens K, Vangala M, Riley D, Arze C, White
   portable sequence analysis from the desktop using cloud computing}. \emph{BMC
   Bioinformatics} 2011, \textbf{12}:356.
 
-\bibitem{Krampis2012}
-Krampis K, Booth T, Chapman B, Tiwari B, Bicak M, Field D, Nelson KE:
-  \textbf{Cloud BioLinux: pre-configured and on-demand bioinformatics computing
-  for the genomics community}. \emph{BMC Bioinformatics} 2012, \textbf{13}:42.
-
 \bibitem{Altintas2011}
 \emph{Distributed workflow-driven analysis of large-scale biological data using
   biokepler}, ACM 2011.
 
-\bibitem{awsec2}
-Services AW: \textbf{Elastic Compute Cloud (EC2)}.
+\bibitem{galaxywiki}
+team Gd: \textbf{Galaxy Bioinformatics Wiki}.
 
 \bibitem{Afgan2010}
 Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   CloudMan: delivering cloud compute clusters}. \emph{BMC Bioinformatics} 2010,
   \textbf{11}(Suppl 12):S4.
 
+\bibitem{console}
+Services AW: .
+
+\bibitem{euca}
+Inc ES: .
+
+\bibitem{openstack}
+Foundation O: .
+
+\bibitem{googlegroup}
+Groups G: .
+
+\bibitem{fabric}
+framework CBD: .
+
 \bibitem{Wilkening2009}
 \emph{Using clouds for metagenomics: A case study}, IEEE 2009.
+
+\bibitem{Dudley2010}
+Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
+  \emph{Nature biotechnology} 2010, \textbf{28}(11):1181--1185.
+
+\bibitem{papazoglou2003}
+\emph{Service-oriented computing: Concepts, characteristics and directions Web
+  Information Systems Engineering, 2003. WISE 2003. Proceedings of the Fourth
+  International Conference on}, IEEE 2003.
 
 \end{thebibliography}
 
@@ -119,6 +187,47 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
 <refgrp>
 
 <bibl id="B1">
+  <title><p>Syntetic Biology, Euroscience Open Forum 2012</p></title>
+  <aug>
+    <au><snm>Venter</snm><fnm>JC</fnm></au>
+  </aug>
+  <source>Syntetic Biology, Euroscience Open Forum 2012</source>
+</bibl>
+
+<bibl id="B2">
+  <title><p>What is life?: With mind and matter and autobiographical
+  sketches</p></title>
+  <aug>
+    <au><snm>Schr�dinger</snm><fnm>E.</fnm></au>
+  </aug>
+  <publisher>Cambridge University Press</publisher>
+  <pubdate>1992</pubdate>
+</bibl>
+
+<bibl id="B3">
+  <title><p>Creation of a bacterial cell controlled by a chemically synthesized
+  genome</p></title>
+  <aug>
+    <au><snm>Gibson</snm><fnm>D.G.</fnm></au>
+    <au><snm>Glass</snm><fnm>J.I.</fnm></au>
+    <au><snm>Lartigue</snm><fnm>C.</fnm></au>
+    <au><snm>Noskov</snm><fnm>V.N.</fnm></au>
+    <au><snm>Chuang</snm><fnm>R.Y.</fnm></au>
+    <au><snm>Algire</snm><fnm>M.A.</fnm></au>
+    <au><snm>Benders</snm><fnm>G.A.</fnm></au>
+    <au><snm>Montague</snm><fnm>M.G.</fnm></au>
+    <au><snm>Ma</snm><fnm>L.</fnm></au>
+    <au><snm>Moodie</snm><fnm>M.M.</fnm></au>
+  </aug>
+  <source>science</source>
+  <pubdate>2010</pubdate>
+  <volume>329</volume>
+  <issue>5987</issue>
+  <fpage>52</fpage>
+  <lpage>56</lpage>
+</bibl>
+
+<bibl id="B4">
   <title><p>Faster sequencers, larger datasets, new challenges</p></title>
   <aug>
     <au><snm>Mason</snm><fnm>CE</fnm></au>
@@ -128,21 +237,28 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <pubdate>2012</pubdate>
 </bibl>
 
-<bibl id="B2">
+<bibl id="B5">
   <title><p>Technical Specifications of Illumina Sequencers</p></title>
   <aug>
     <au><snm>Illumina</snm><fnm>I</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B3">
+<bibl id="B6">
   <title><p>The SOLiD 5500 sequencing system.</p></title>
   <aug>
     <au><snm>Inc.</snm><fnm>AB</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B4">
+<bibl id="B7">
+  <title><p>PacBio RS sequencing technology</p></title>
+  <aug>
+    <au><snm>Inc.</snm><fnm>PB</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B8">
   <title><p>Next-generation DNA sequencing methods</p></title>
   <aug>
     <au><snm>Mardis</snm><fnm>E.R.</fnm></au>
@@ -154,7 +270,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>402</lpage>
 </bibl>
 
-<bibl id="B5">
+<bibl id="B9">
   <title><p>The Sorcerer II global ocean sampling expedition: northwest
   Atlantic through eastern tropical Pacific</p></title>
   <aug>
@@ -176,7 +292,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <fpage>e77</fpage>
 </bibl>
 
-<bibl id="B6">
+<bibl id="B10">
   <title><p>A catalog of reference genomes from the human
   microbiome</p></title>
   <aug>
@@ -198,8 +314,106 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <fpage>994</fpage>
 </bibl>
 
-<bibl id="B7">
-  <title><p>The biology workbench‚ÄîA seamless database and analysis
+<bibl id="B11">
+  <title><p>NCBI Reference Sequences: current status, policy and new
+  initiatives</p></title>
+  <aug>
+    <au><snm>Pruitt</snm><fnm>K.D.</fnm></au>
+    <au><snm>Tatusova</snm><fnm>T.</fnm></au>
+    <au><snm>Klimke</snm><fnm>W.</fnm></au>
+    <au><snm>Maglott</snm><fnm>D.R.</fnm></au>
+  </aug>
+  <source>Nucleic acids research</source>
+  <pubdate>2009</pubdate>
+  <volume>37</volume>
+  <issue>suppl 1</issue>
+  <fpage>D32</fpage>
+  <lpage>D36</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>Sequence Read Archive</p></title>
+  <aug>
+    <au><snm>Information</snm><fnm>NCFB</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B13">
+  <title><p>Elastic Compute Cloud (EC2)</p></title>
+  <aug>
+    <au><snm>Services</snm><fnm>AW</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B14">
+  <title><p>EC2 Pricing</p></title>
+  <aug>
+    <au><snm>Services</snm><fnm>AW</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B15">
+  <title><p>The 1000 Genomes Project: data management and community
+  access</p></title>
+  <aug>
+    <au><snm>Clarke</snm><fnm>L.</fnm></au>
+    <au><snm>Zheng Bradley</snm><fnm>X.</fnm></au>
+    <au><snm>Smith</snm><fnm>R.</fnm></au>
+    <au><snm>Kulesha</snm><fnm>E.</fnm></au>
+    <au><snm>Xiao</snm><fnm>C.</fnm></au>
+    <au><snm>Toneva</snm><fnm>I.</fnm></au>
+    <au><snm>Vaughan</snm><fnm>B.</fnm></au>
+    <au><snm>Preuss</snm><fnm>D.</fnm></au>
+    <au><snm>Leinonen</snm><fnm>R.</fnm></au>
+    <au><snm>Shumway</snm><fnm>M.</fnm></au>
+  </aug>
+  <source>nature methods</source>
+  <pubdate>2012</pubdate>
+  <volume>9</volume>
+  <issue>5</issue>
+  <fpage>459</fpage>
+  <lpage>462</lpage>
+</bibl>
+
+<bibl id="B16">
+  <aug>
+    <au><snm>Krampis</snm><fnm>K.</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B17">
+  <aug>
+    <au><snm>Krampis</snm><fnm>K.</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B18">
+  <title><p>Cloud BioLinux: pre-configured and on-demand bioinformatics
+  computing for the genomics community</p></title>
+  <aug>
+    <au><snm>Krampis</snm><fnm>K.</fnm></au>
+    <au><snm>Booth</snm><fnm>T.</fnm></au>
+    <au><snm>Chapman</snm><fnm>B.</fnm></au>
+    <au><snm>Tiwari</snm><fnm>B.</fnm></au>
+    <au><snm>Bicak</snm><fnm>M.</fnm></au>
+    <au><snm>Field</snm><fnm>D.</fnm></au>
+    <au><snm>Nelson</snm><fnm>K. E.</fnm></au>
+  </aug>
+  <source>BMC Bioinformatics</source>
+  <pubdate>2012</pubdate>
+  <volume>13</volume>
+  <fpage>42</fpage>
+</bibl>
+
+<bibl id="B19">
+  <title><p>Open-Source code repository</p></title>
+  <aug>
+    <au><snm>Inc</snm><fnm>G</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B20">
+  <title><p>The biology workbench—A seamless database and analysis
   environment for the biologist</p></title>
   <aug>
     <au><snm>Subramaniam</snm><fnm>S</fnm></au>
@@ -212,7 +426,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>-2</lpage>
 </bibl>
 
-<bibl id="B8">
+<bibl id="B21">
   <title><p>A Web interface generator for molecular biology programs in
   Unix</p></title>
   <aug>
@@ -226,7 +440,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>-82</lpage>
 </bibl>
 
-<bibl id="B9">
+<bibl id="B22">
   <title><p>wEMBOSS: a web interface for EMBOSS</p></title>
   <aug>
     <au><snm>Sarachu</snm><fnm>M</fnm></au>
@@ -240,7 +454,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>-541</lpage>
 </bibl>
 
-<bibl id="B10">
+<bibl id="B23">
   <title><p>Mobyle: a new full web bioinformatics framework
   Bioinformatics</p></title>
   <aug>
@@ -262,7 +476,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>-3011</lpage>
 </bibl>
 
-<bibl id="B11">
+<bibl id="B24">
   <title><p>BioManager: the use of a bioinformatics web application as a
   teaching tool in undergraduate bioinformatics training</p></title>
   <aug>
@@ -277,7 +491,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>-465</lpage>
 </bibl>
 
-<bibl id="B12">
+<bibl id="B25">
   <title><p>Implementing bioinformatic workflows within the BioExtract
   Server</p></title>
   <aug>
@@ -296,7 +510,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>-312</lpage>
 </bibl>
 
-<bibl id="B13">
+<bibl id="B26">
   <title><p>The Genome Portal of the Department of Energy Joint Genome
   Institute</p></title>
   <aug>
@@ -319,7 +533,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>D32</lpage>
 </bibl>
 
-<bibl id="B14">
+<bibl id="B27">
   <title><p>Camera 2.0: A data-centric metagenomics community infrastructure
   driven by scientific workflows</p></title>
   <aug>
@@ -342,7 +556,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>359</lpage>
 </bibl>
 
-<bibl id="B15">
+<bibl id="B28">
   <title><p>The EBI Metagenomics Archive, Integration and Analysis
   Resource</p></title>
   <aug>
@@ -357,7 +571,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>340</lpage>
 </bibl>
 
-<bibl id="B16">
+<bibl id="B29">
   <title><p>Subsystems-based servers for rapid annotation of genomes and
   metagenomes</p></title>
   <aug>
@@ -370,7 +584,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <fpage>O2</fpage>
 </bibl>
 
-<bibl id="B17">
+<bibl id="B30">
   <title><p>Galaxy: a comprehensive approach for supporting accessible,
   reproducible, and transparent computational research in the life
   sciences</p></title>
@@ -386,7 +600,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <fpage>R86</fpage>
 </bibl>
 
-<bibl id="B18">
+<bibl id="B31">
   <title><p>CloVR: A virtual machine for automated and portable sequence
   analysis from the desktop using cloud computing</p></title>
   <aug>
@@ -408,25 +622,7 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <fpage>356</fpage>
 </bibl>
 
-<bibl id="B19">
-  <title><p>Cloud BioLinux: pre-configured and on-demand bioinformatics
-  computing for the genomics community</p></title>
-  <aug>
-    <au><snm>Krampis</snm><fnm>K.</fnm></au>
-    <au><snm>Booth</snm><fnm>T.</fnm></au>
-    <au><snm>Chapman</snm><fnm>B.</fnm></au>
-    <au><snm>Tiwari</snm><fnm>B.</fnm></au>
-    <au><snm>Bicak</snm><fnm>M.</fnm></au>
-    <au><snm>Field</snm><fnm>D.</fnm></au>
-    <au><snm>Nelson</snm><fnm>K. E.</fnm></au>
-  </aug>
-  <source>BMC Bioinformatics</source>
-  <pubdate>2012</pubdate>
-  <volume>13</volume>
-  <fpage>42</fpage>
-</bibl>
-
-<bibl id="B20">
+<bibl id="B32">
   <title><p>Distributed workflow-driven analysis of large-scale biological data
   using biokepler</p></title>
   <aug>
@@ -440,14 +636,14 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <lpage>42</lpage>
 </bibl>
 
-<bibl id="B21">
-  <title><p>Elastic Compute Cloud (EC2)</p></title>
+<bibl id="B33">
+  <title><p>Galaxy Bioinformatics Wiki</p></title>
   <aug>
-    <au><snm>Services</snm><fnm>AW</fnm></au>
+    <au><snm>team</snm><fnm>Gd</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B22">
+<bibl id="B34">
   <title><p>Galaxy CloudMan: delivering cloud compute clusters</p></title>
   <aug>
     <au><snm>Afgan</snm><fnm>E.</fnm></au>
@@ -464,7 +660,37 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <fpage>S4</fpage>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B35">
+  <aug>
+    <au><snm>Services</snm><fnm>AW</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B36">
+  <aug>
+    <au><snm>Inc</snm><fnm>ES</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B37">
+  <aug>
+    <au><snm>Foundation</snm><fnm>O</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B38">
+  <aug>
+    <au><snm>Groups</snm><fnm>G</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B39">
+  <aug>
+    <au><snm>framework</snm><fnm>CBD</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B40">
   <title><p>Using clouds for metagenomics: A case study</p></title>
   <aug>
     <au><snm>Wilkening</snm><fnm>J.</fnm></au>
@@ -477,6 +703,36 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   <pubdate>2009</pubdate>
   <fpage>1</fpage>
   <lpage>6</lpage>
+</bibl>
+
+<bibl id="B41">
+  <title><p>In silico research in the era of cloud computing</p></title>
+  <aug>
+    <au><snm>Dudley</snm><fnm>J. T.</fnm></au>
+    <au><snm>Butte</snm><fnm>A. J.</fnm></au>
+  </aug>
+  <source>Nature biotechnology</source>
+  <pubdate>2010</pubdate>
+  <volume>28</volume>
+  <issue>11</issue>
+  <fpage>1181</fpage>
+  <lpage>1185</lpage>
+</bibl>
+
+<bibl id="B42">
+  <title><p>Service-oriented computing: Concepts, characteristics and
+  directions Web Information Systems Engineering, 2003. WISE 2003. Proceedings
+  of the Fourth International Conference on</p></title>
+  <aug>
+    <au><snm>Papazoglou</snm><fnm>M.P.</fnm></au>
+  </aug>
+  <source>Service-oriented computing: Concepts, characteristics and directions
+  Web Information Systems Engineering, 2003. WISE 2003. Proceedings of the
+  Fourth International Conference on</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2003</pubdate>
+  <fpage>3</fpage>
+  <lpage>-12</lpage>
 </bibl>
 
 </refgrp>

@@ -1,6 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: bmc_article.aux
+Case mismatch error between cite keys Clarke2012 and clarke2012
+---line 54 of file bmc_article.aux
+ : \citation{Clarke2012
+ :                     }
+I'm skipping whatever remains of this command
 The style file: bmc_article.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=5001) to 20 items from 10.
@@ -9,56 +14,107 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bmc_article.bib
+I was expecting a `,' or a `}'---line 759 of file bmc_article.bib
+ : 
+ : sourceforge,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Metzker2009"
-Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Loman2012"
+Warning--I didn't find a database entry for "gogol2012overview"
 Warning--I didn't find a database entry for "johnson2008ncbi"
+Warning--I didn't find a database entry for "altschul1990basic"
+Warning--I didn't find a database entry for "Meyer2006"
+Warning--I didn't find a database entry for "ncbi"
+Warning--I didn't find a database entry for "ec2regions"
+Warning--I didn't find a database entry for "sourceforge"
 Warning--I didn't find a database entry for "cloudbio"
+Warning--I didn't find a database entry for "Uhling2005"
+Warning--I didn't find a database entry for "ebs"
+Warning--I didn't find a database entry for "aws"
+Warning--I didn't find a database entry for "s3"
+Warning--I didn't find a database entry for "awsforums"
+Warning--I didn't find a database entry for "stein"
+Warning--I didn't find a database entry for "altchul"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "youtube"
+Warning--empty year in venterdublin
 Warning--empty journal in Illumina
 Warning--empty year in Illumina
 Warning--empty journal in solid5500
 Warning--empty year in solid5500
+Warning--empty journal in PacBio
+Warning--empty year in PacBio
+Warning--empty journal in sra
+Warning--empty year in sra
 Warning--empty journal in awsec2
 Warning--empty year in awsec2
-You've used 23 entries,
+Warning--empty journal in ec2price
+Warning--empty year in ec2price
+Warning--empty title in 1000tube1
+Warning--empty journal in 1000tube1
+Warning--empty year in 1000tube1
+Warning--empty title in 1000tube2
+Warning--empty journal in 1000tube2
+Warning--empty year in 1000tube2
+Warning--empty journal in github
+Warning--empty year in github
+Warning--empty journal in galaxywiki
+Warning--empty year in galaxywiki
+Warning--empty title in console
+Warning--empty journal in console
+Warning--empty year in console
+Warning--empty title in euca
+Warning--empty journal in euca
+Warning--empty year in euca
+Warning--empty title in openstack
+Warning--empty journal in openstack
+Warning--empty year in openstack
+Warning--empty title in googlegroup
+Warning--empty journal in googlegroup
+Warning--empty year in googlegroup
+Warning--empty title in fabric
+Warning--empty journal in fabric
+Warning--empty year in fabric
+You've used 42 entries,
             3603 wiz_defined-function locations,
-            848 strings with 9386 characters,
-and the built_in function-call counts, 47567 in all, are:
-= -- 4296
-> -- 284
-< -- 125
-+ -- 360
-- -- 87
-* -- 5492
-:= -- 8256
-add.period$ -- 40
-call.type$ -- 23
-change.case$ -- 102
+            933 strings with 11197 characters,
+and the built_in function-call counts, 71702 in all, are:
+= -- 6424
+> -- 420
+< -- 185
++ -- 538
+- -- 126
+* -- 7839
+:= -- 12522
+add.period$ -- 64
+call.type$ -- 42
+change.case$ -- 143
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 3088
-empty$ -- 3676
-format.name$ -- 406
-if$ -- 9289
+cite$ -- 80
+duplicate$ -- 4969
+empty$ -- 5449
+format.name$ -- 572
+if$ -- 14076
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 1115
-newline$ -- 427
-num.names$ -- 43
-pop$ -- 793
+int.to.str$ -- 84
+missing$ -- 1898
+newline$ -- 664
+num.names$ -- 79
+pop$ -- 1498
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 46
-skip$ -- 439
+quote$ -- 84
+skip$ -- 896
 stack$ -- 0
-substring$ -- 7209
-swap$ -- 750
-text.length$ -- 46
+substring$ -- 10135
+swap$ -- 1131
+text.length$ -- 84
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 6
-while$ -- 242
-width$ -- 25
-write$ -- 826
-(There were 11 warnings)
+type$ -- 2
+warning$ -- 38
+while$ -- 384
+width$ -- 44
+write$ -- 1231
+(There were 2 error messages)
