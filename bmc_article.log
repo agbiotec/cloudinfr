@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.9)  25 OCT 2012 17:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.9)  3 NOV 2012 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -84,23 +84,12 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 LaTeX Warning: Citation `Loman2012' on page 2 undefined on input line 219.
 
 
-LaTeX Warning: Citation `gogol2012overview' on page 2 undefined on input line 2
-37.
-
-
 LaTeX Warning: Citation `johnson2008ncbi' on page 2 undefined on input line 240
 .
-
-
-LaTeX Warning: Citation `altschul1990basic' on page 2 undefined on input line 2
-42.
 
 [2]
 
 LaTeX Warning: Citation `Meyer2006' on page 3 undefined on input line 278.
-
-
-LaTeX Warning: Citation `ncbi' on page 3 undefined on input line 281.
 
 [3]
 
@@ -118,38 +107,62 @@ LaTeX Warning: Citation `Clarke2012' on page 6 undefined on input line 373.
 
 [6]
 
-LaTeX Warning: Citation `Uhling2005' on page 7 undefined on input line 404.
+LaTeX Warning: Citation `Uhling2005' on page 7 undefined on input line 403.
+
+[7] [8] [9]
+
+LaTeX Warning: Citation `Clarke2012' on page 10 undefined on input line 513.
+
+[10]
+
+LaTeX Warning: Citation `altchul' on page 11 undefined on input line 533.
+
+[11] [12]
+./bmc_article.tex:613: Missing $ inserted.
+<inserted text> 
+                $
+l.613 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Overfull \hbox (238.05754pt too wide) in paragraph at lines 594--613
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 02\OML/cmm/m/it/10 millionfo
+rayear\OT1/cmr/m/n/10 [24]\OML/cmm/m/it/10 :Storagecostcanbereducedbystoring[]c
+old[]data\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 rarelyuseddata\OT1/cmr/m/n/10 )\OML/
+cmm/m/it/10 onlowcoststorageandmaintainingonlythedatamostlikelytobeusedonhigh \
+OMS/cmsy/m/n/10 ^^@ 
+ []
 
 
-LaTeX Warning: Citation `ebs' on page 7 undefined on input line 426.
+Overfull \hbox (300.36647pt too wide) in paragraph at lines 594--613
+\OML/cmm/m/it/10 latencystorage:Anotherwayistoonlystorerawdataandderivetherestf
+romtherawdata:ThisiscalledtheReducedRedundancyStoragewhichisastorageoptioninthe
+AmazonS\OT1/cmr/m/n/10 3[\OML/cmm/m/it/10 http \OT1/cmr/m/n/10 : 
+ []
 
 
-LaTeX Warning: Citation `ebs' on page 7 undefined on input line 428.
+Overfull \hbox (1641.48071pt too wide) in paragraph at lines 594--613
+\OML/cmm/m/it/10 critical; reproducibledataatlowerlevelsofredundancythanAmazonS
+\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 sstandardstorageS\OT1/cmr/m/n/10 3\OML/cmm/m/
+it/10 doesn[]tprovideanycheckpointorbackupfacilityfordatawhichareaccidentallyer
+asedormodified:S\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 chargingscheme\OT1/cmr/m/n/10
+ (\OML/cmm/m/it/10 doesn[]tsupportanyuserspecifiedusagelimit\OT1/cmr/m/n/10 )\O
+ML/cmm/m/it/10 alsocannotavoidorhandleamonetarylossifanattackerrepeatedlytransf
+ersdatatoandfromanS\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 bucketorincaseofabuggyprog
+ram:TheseriskscanbeavoidedbyusingS\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 asthebacken
+dofastoragesystem; andhavingusersconnecttoafront \OMS/cmsy/m/n/10 ^^@ 
+ []
 
-[7] [8]
+[13]
 
-LaTeX Warning: Citation `aws' on page 9 undefined on input line 464.
+LaTeX Warning: Citation `youtube' on page 14 undefined on input line 651.
 
-
-LaTeX Warning: Citation `ebs' on page 9 undefined on input line 467.
-
-
-LaTeX Warning: Citation `s3' on page 9 undefined on input line 467.
-
-
-LaTeX Warning: Citation `aws' on page 9 undefined on input line 468.
-
-
-LaTeX Warning: Citation `awsforums' on page 9 undefined on input line 475.
-
-[9] [10]
-
-LaTeX Warning: Citation `stein' on page 11 undefined on input line 544.
-
-
-LaTeX Warning: Citation `altchul' on page 11 undefined on input line 545.
-
-[11]
+[14]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -163,9 +176,9 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-./bmc_article.tex:566: Misplaced alignment tab character &.
-l.566 ...ite and discussion forum (see Education &
-                                                   Outreach section).
+./bmc_article.tex:676: Misplaced alignment tab character &.
+l.676 and discussion forum (see Education &
+                                            Outreach section).
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -173,47 +186,43 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[12]
-
-LaTeX Warning: Citation `youtube' on page 13 undefined on input line 582.
-
-[13] (./bmc_article.bbl
-Missing character: There is no ö in font cmr9!
- [14]
-Missing character: There is no ‚ in font cmbx9!
-Missing character: There is no Ä in font cmbx9!
-Missing character: There is no î in font cmbx9!
- [15]) [16] (./bmc_article.aux)
+[15] (./bmc_article.bbl [16] [17]
+Missing character: There is no ¬ in font cmr9!
+Missing character: There is no í in font cmr9!
+) [18] (./bmc_article.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 498 strings out of 494752
- 5846 string characters out of 3171021
- 58623 words of memory out of 3000000
- 3764 multiletter control sequences out of 15000+200000
+ 520 strings out of 494752
+ 6150 string characters out of 3171021
+ 66447 words of memory out of 3000000
+ 3786 multiletter control sequences out of 15000+200000
  10693 words of font info for 37 fonts, out of 3000000 for 9000
  166 hyphenation exceptions out of 8191
- 29i,5n,21p,1451b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,5n,21p,220b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx9.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr9.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmss10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss12.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmss8.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2011basic/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2011basic/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011basic/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on bmc_article.pdf (16 pages, 203410 bytes).
+m/cmmi10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmss12.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2011basic/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2011basic/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2011basic/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011bas
+ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011
+basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on bmc_article.pdf (18 pages, 241989 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,8 +8,8 @@
 \emph{Syntetic Biology, Euroscience Open Forum 2012}.
 
 \bibitem{Schrodinger1992}
-Schr�dinger E: \emph{What is life?: With mind and matter and autobiographical
-  sketches}. Cambridge University Press 1992.
+\emph{What is life?: With mind and matter and autobiographical sketches}.
+  Cambridge University Press 1992.
 
 \bibitem{Gibson2010}
 Gibson D, Glass J, Lartigue C, Noskov V, Chuang R, Algire M, Benders G,
@@ -46,10 +46,24 @@ Nelson K, Weinstock G, Highlander S, Worley K, Creasy H, Wortman J, Rusch D,
   from the human microbiome}. \emph{Science (New York, NY)} 2010,
   \textbf{328}(5981):994.
 
+\bibitem{gogol2012overview}
+Gogol-D{\"o}ring A, Chen W, et~al.: \textbf{An overview of the analysis of next
+  generation sequencing data}. \emph{Methods in Molecular Biology} 2012,
+  \textbf{802}:249--257.
+
+\bibitem{altschul1990basic}
+Altschul S, Gish W, Miller W, Myers E, Lipman D, et~al.: \textbf{Basic local
+  alignment search tool}. \emph{Journal of molecular biology} 1990,
+  \textbf{215}(3):403--410.
+
 \bibitem{Pruitt2009}
 Pruitt K, Tatusova T, Klimke W, Maglott D: \textbf{NCBI Reference Sequences:
   current status, policy and new initiatives}. \emph{Nucleic acids research}
   2009, \textbf{37}(suppl 1):D32--D36.
+
+\bibitem{ncbi}
+\textbf{National Center for Biotechnology
+  Information:}\urlprefix\url{[http://www.ncbi.nlm.nih.gov]}.
 
 \bibitem{sra}
 Information NCFB: \textbf{Sequence Read Archive}.
@@ -81,7 +95,7 @@ Krampis K, Booth T, Chapman B, Tiwari B, Bicak M, Field D, Nelson KE:
 Inc G: \textbf{Open-Source code repository}.
 
 \bibitem{Subramaniam1998Biology}
-Subramaniam S: \textbf{The biology workbench—A seamless database and analysis
+Subramaniam S: \textbf{The biology workbench---A seamless database and analysis
   environment for the biologist}. \emph{Proteins} 1998, \textbf{32}:1--2.
 
 \bibitem{Letondal2001Web}
@@ -152,13 +166,15 @@ Afgan E, Baker D, Coraor N, Chapman B, Nekrutenko A, Taylor J: \textbf{Galaxy
   \textbf{11}(Suppl 12):S4.
 
 \bibitem{console}
-Services AW: .
+Services AW: \textbf{Amazon Cloud Console}.
 
 \bibitem{euca}
-Inc ES: .
+\textbf{Eucalyptus Open Source Cloud
+  Platform:}\urlprefix\url{[http://open.eucalyptus.com]}.
 
 \bibitem{openstack}
-Foundation O: .
+\textbf{OpenStack Open Source Cloud
+  Platform:}\urlprefix\url{[http://www.openstack.org]}.
 
 \bibitem{googlegroup}
 Groups G: .
@@ -173,10 +189,112 @@ framework CBD: .
 Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   \emph{Nature biotechnology} 2010, \textbf{28}(11):1181--1185.
 
+\bibitem{ebs}
+\textbf{Elastic Block Store:}\urlprefix\url{[http://aws.amazon.com/ebs]}.
+
+\bibitem{aws}
+\textbf{Amazon Web Services:}\urlprefix\url{[http://aws.amazon.com]}.
+
+\bibitem{s3}
+\textbf{Simple Storage Service:}\urlprefix\url{[http://aws.amazon.com/s3]}.
+
+\bibitem{awsforums}
+\textbf{Amazon Web Services
+  Forums:}\urlprefix\url{[https://forums.aws.amazon.com]}.
+
+\bibitem{ubuntucloud}
+\textbf{Ubuntu Linux Operating
+  System:}\urlprefix\url{[http://www.ubuntu.com/Cloud]}.
+
+\bibitem{openstackother}
+\textbf{OpenStack Installation
+  Documentation:}\urlprefix\url{[http://docs.openstack.org/essex/openstack-compute/starter/content/CentOS-de1592.html]}.
+
+\bibitem{eucalyptusother}
+\textbf{Eucalyptus Cloud Installation
+  Packages:}\urlprefix\url{[http://www.eucalyptus.com/download/eucalyptus]}.
+
+\bibitem{magellan}
+\textbf{OpenStack at Magellan
+  Cloud:}\urlprefix\url{[http://www.alcf.anl.gov/magellan]}.
+
+\bibitem{openstackinstalls}
+\textbf{OpenStack Cloud
+  Installations:}\urlprefix\url{[http://openstack.org/user-stories/]}.
+
+\bibitem{vbox}
+\textbf{VirtualBox desktop virtualization
+  software:}\urlprefix\url{[http://www.virtualbox.org]}.
+
+\bibitem{cblorg}
+\textbf{Cloud BioLinux community
+  site:}\urlprefix\url{[http://www.cloudbiolinux.org]}.
+
+\bibitem{cloudfront}
+\textbf{Amazon CloudFront:}\urlprefix\url{[http://aws.amazon.com/cloudfront/]}.
+
+\bibitem{awsgrants}
+\textbf{Educational Grants:}\urlprefix\url{[http://aws.amazon.com/grants/]}.
+
+\bibitem{awspublicdata}
+\textbf{Community datasets
+  hosting:}\urlprefix\url{[http://aws.amazon.com/datasets]}.
+
+\bibitem{aws1000gen}
+\textbf{1000 Human Genomes dataset on the
+  cloud:}\urlprefix\url{[http://aws.amazon.com/1000genomes/]}.
+
+\bibitem{awsflu}
+\textbf{NCBI Flue sequence
+  datasets:}\urlprefix\url{[http://aws.amazon.com/datasets/2419]}.
+
+\bibitem{awsensembl}
+\textbf{Ensembl Human Genome
+  Annotation:}\urlprefix\url{[http://aws.amazon.com/datasets/3841]}.
+
 \bibitem{papazoglou2003}
 \emph{Service-oriented computing: Concepts, characteristics and directions Web
   Information Systems Engineering, 2003. WISE 2003. Proceedings of the Fourth
   International Conference on}, IEEE 2003.
+
+\bibitem{Stein2010}
+Stein LD: \textbf{The case for cloud computing in genome informatics}.
+  \emph{Genome Biology} 2010, \textbf{11}(5):207.
+
+\bibitem{basespace}
+\textbf{Illumina BaseSpace:}\urlprefix\url{[http://basespace.illumina.com]}.
+
+\bibitem{genomespace}
+\textbf{Broad Institute Genomespace
+  portal:}\urlprefix\url{[http://www.genomespace.org]}.
+
+\bibitem{d2010seqware}
+D~OConnor B, Merriman B, Nelson S: \textbf{SeqWare Query Engine: storing and
+  searching sequence data in the cloud}. \emph{BMC bioinformatics} 2010,
+  \textbf{11}(Suppl 12):S2.
+
+\bibitem{dnanexus}
+\textbf{DNANexus Inc. :}\urlprefix\url{[http://www.dnanexus.com]}.
+
+\bibitem{bhardwaj2010cloud}
+Bhardwaj S, Jain L, Jain S: \textbf{Cloud computing: A study of infrastructure
+  as a service (IAAS)}. \emph{International Journal of engineering and
+  information Technology} 2010, \textbf{2}:60--63.
+
+\bibitem{hill2009quantitative}
+Hill Z, Humphrey M: \textbf{A quantitative analysis of high performance
+  computing with Amazon's EC2 infrastructure: The death of the local cluster?}
+  In \emph{Grid Computing, 2009 10th IEEE/ACM International Conference on},
+  IEEE 2009:26--33.
+
+\bibitem{boden1995myrinet}
+Boden N, Cohen D, Felderman R, Kulawik A, Seitz C, Seizovic J, Su W:
+  \textbf{Myrinet: A gigabit-per-second local area network}. \emph{Micro, IEEE}
+  1995, \textbf{15}:29--36.
+
+\bibitem{infiniband2000infiniband}
+Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
+  InfiniBand Trade Association 2000.
 
 \end{thebibliography}
 
@@ -197,9 +315,6 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
 <bibl id="B2">
   <title><p>What is life?: With mind and matter and autobiographical
   sketches</p></title>
-  <aug>
-    <au><snm>Schr�dinger</snm><fnm>E.</fnm></au>
-  </aug>
   <publisher>Cambridge University Press</publisher>
   <pubdate>1992</pubdate>
 </bibl>
@@ -315,6 +430,41 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
 </bibl>
 
 <bibl id="B11">
+  <title><p>An overview of the analysis of next generation sequencing
+  data</p></title>
+  <aug>
+    <au><snm>Gogol D{\"o}ring</snm><fnm>A.</fnm></au>
+    <au><snm>Chen</snm><fnm>W.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Methods in Molecular Biology</source>
+  <publisher>Springer</publisher>
+  <pubdate>2012</pubdate>
+  <volume>802</volume>
+  <fpage>249</fpage>
+  <lpage>-257</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>Basic local alignment search tool</p></title>
+  <aug>
+    <au><snm>Altschul</snm><fnm>S.F.</fnm></au>
+    <au><snm>Gish</snm><fnm>W.</fnm></au>
+    <au><snm>Miller</snm><fnm>W.</fnm></au>
+    <au><snm>Myers</snm><fnm>E.W.</fnm></au>
+    <au><snm>Lipman</snm><fnm>D.J.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Journal of molecular biology</source>
+  <publisher>Elsevier Science</publisher>
+  <pubdate>1990</pubdate>
+  <volume>215</volume>
+  <issue>3</issue>
+  <fpage>403</fpage>
+  <lpage>-410</lpage>
+</bibl>
+
+<bibl id="B13">
   <title><p>NCBI Reference Sequences: current status, policy and new
   initiatives</p></title>
   <aug>
@@ -331,28 +481,33 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>D36</lpage>
 </bibl>
 
-<bibl id="B12">
+<bibl id="B14">
+  <title><p>National Center for Biotechnology Information:</p></title>
+  <url>http://www.ncbi.nlm.nih.gov</url>
+</bibl>
+
+<bibl id="B15">
   <title><p>Sequence Read Archive</p></title>
   <aug>
     <au><snm>Information</snm><fnm>NCFB</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B13">
+<bibl id="B16">
   <title><p>Elastic Compute Cloud (EC2)</p></title>
   <aug>
     <au><snm>Services</snm><fnm>AW</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B14">
+<bibl id="B17">
   <title><p>EC2 Pricing</p></title>
   <aug>
     <au><snm>Services</snm><fnm>AW</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B15">
+<bibl id="B18">
   <title><p>The 1000 Genomes Project: data management and community
   access</p></title>
   <aug>
@@ -375,19 +530,19 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>462</lpage>
 </bibl>
 
-<bibl id="B16">
+<bibl id="B19">
   <aug>
     <au><snm>Krampis</snm><fnm>K.</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B17">
+<bibl id="B20">
   <aug>
     <au><snm>Krampis</snm><fnm>K.</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B18">
+<bibl id="B21">
   <title><p>Cloud BioLinux: pre-configured and on-demand bioinformatics
   computing for the genomics community</p></title>
   <aug>
@@ -405,15 +560,15 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <fpage>42</fpage>
 </bibl>
 
-<bibl id="B19">
+<bibl id="B22">
   <title><p>Open-Source code repository</p></title>
   <aug>
     <au><snm>Inc</snm><fnm>G</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B20">
-  <title><p>The biology workbench—A seamless database and analysis
+<bibl id="B23">
+  <title><p>The biology workbench---A seamless database and analysis
   environment for the biologist</p></title>
   <aug>
     <au><snm>Subramaniam</snm><fnm>S</fnm></au>
@@ -426,7 +581,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>-2</lpage>
 </bibl>
 
-<bibl id="B21">
+<bibl id="B24">
   <title><p>A Web interface generator for molecular biology programs in
   Unix</p></title>
   <aug>
@@ -440,7 +595,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>-82</lpage>
 </bibl>
 
-<bibl id="B22">
+<bibl id="B25">
   <title><p>wEMBOSS: a web interface for EMBOSS</p></title>
   <aug>
     <au><snm>Sarachu</snm><fnm>M</fnm></au>
@@ -454,7 +609,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>-541</lpage>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B26">
   <title><p>Mobyle: a new full web bioinformatics framework
   Bioinformatics</p></title>
   <aug>
@@ -476,7 +631,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>-3011</lpage>
 </bibl>
 
-<bibl id="B24">
+<bibl id="B27">
   <title><p>BioManager: the use of a bioinformatics web application as a
   teaching tool in undergraduate bioinformatics training</p></title>
   <aug>
@@ -491,7 +646,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>-465</lpage>
 </bibl>
 
-<bibl id="B25">
+<bibl id="B28">
   <title><p>Implementing bioinformatic workflows within the BioExtract
   Server</p></title>
   <aug>
@@ -510,7 +665,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>-312</lpage>
 </bibl>
 
-<bibl id="B26">
+<bibl id="B29">
   <title><p>The Genome Portal of the Department of Energy Joint Genome
   Institute</p></title>
   <aug>
@@ -533,7 +688,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>D32</lpage>
 </bibl>
 
-<bibl id="B27">
+<bibl id="B30">
   <title><p>Camera 2.0: A data-centric metagenomics community infrastructure
   driven by scientific workflows</p></title>
   <aug>
@@ -556,7 +711,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>359</lpage>
 </bibl>
 
-<bibl id="B28">
+<bibl id="B31">
   <title><p>The EBI Metagenomics Archive, Integration and Analysis
   Resource</p></title>
   <aug>
@@ -571,7 +726,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>340</lpage>
 </bibl>
 
-<bibl id="B29">
+<bibl id="B32">
   <title><p>Subsystems-based servers for rapid annotation of genomes and
   metagenomes</p></title>
   <aug>
@@ -584,7 +739,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <fpage>O2</fpage>
 </bibl>
 
-<bibl id="B30">
+<bibl id="B33">
   <title><p>Galaxy: a comprehensive approach for supporting accessible,
   reproducible, and transparent computational research in the life
   sciences</p></title>
@@ -600,7 +755,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <fpage>R86</fpage>
 </bibl>
 
-<bibl id="B31">
+<bibl id="B34">
   <title><p>CloVR: A virtual machine for automated and portable sequence
   analysis from the desktop using cloud computing</p></title>
   <aug>
@@ -622,7 +777,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <fpage>356</fpage>
 </bibl>
 
-<bibl id="B32">
+<bibl id="B35">
   <title><p>Distributed workflow-driven analysis of large-scale biological data
   using biokepler</p></title>
   <aug>
@@ -636,14 +791,14 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>42</lpage>
 </bibl>
 
-<bibl id="B33">
+<bibl id="B36">
   <title><p>Galaxy Bioinformatics Wiki</p></title>
   <aug>
     <au><snm>team</snm><fnm>Gd</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B34">
+<bibl id="B37">
   <title><p>Galaxy CloudMan: delivering cloud compute clusters</p></title>
   <aug>
     <au><snm>Afgan</snm><fnm>E.</fnm></au>
@@ -660,37 +815,36 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <fpage>S4</fpage>
 </bibl>
 
-<bibl id="B35">
+<bibl id="B38">
+  <title><p>Amazon Cloud Console</p></title>
   <aug>
     <au><snm>Services</snm><fnm>AW</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B36">
-  <aug>
-    <au><snm>Inc</snm><fnm>ES</fnm></au>
-  </aug>
+<bibl id="B39">
+  <title><p>Eucalyptus Open Source Cloud Platform:</p></title>
+  <url>http://open.eucalyptus.com</url>
 </bibl>
 
-<bibl id="B37">
-  <aug>
-    <au><snm>Foundation</snm><fnm>O</fnm></au>
-  </aug>
+<bibl id="B40">
+  <title><p>OpenStack Open Source Cloud Platform:</p></title>
+  <url>http://www.openstack.org</url>
 </bibl>
 
-<bibl id="B38">
+<bibl id="B41">
   <aug>
     <au><snm>Groups</snm><fnm>G</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B39">
+<bibl id="B42">
   <aug>
     <au><snm>framework</snm><fnm>CBD</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B40">
+<bibl id="B43">
   <title><p>Using clouds for metagenomics: A case study</p></title>
   <aug>
     <au><snm>Wilkening</snm><fnm>J.</fnm></au>
@@ -705,7 +859,7 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>6</lpage>
 </bibl>
 
-<bibl id="B41">
+<bibl id="B44">
   <title><p>In silico research in the era of cloud computing</p></title>
   <aug>
     <au><snm>Dudley</snm><fnm>J. T.</fnm></au>
@@ -719,7 +873,92 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <lpage>1185</lpage>
 </bibl>
 
-<bibl id="B42">
+<bibl id="B45">
+  <title><p>Elastic Block Store:</p></title>
+  <url>http://aws.amazon.com/ebs</url>
+</bibl>
+
+<bibl id="B46">
+  <title><p>Amazon Web Services:</p></title>
+  <url>http://aws.amazon.com</url>
+</bibl>
+
+<bibl id="B47">
+  <title><p>Simple Storage Service:</p></title>
+  <url>http://aws.amazon.com/s3</url>
+</bibl>
+
+<bibl id="B48">
+  <title><p>Amazon Web Services Forums:</p></title>
+  <url>https://forums.aws.amazon.com</url>
+</bibl>
+
+<bibl id="B49">
+  <title><p>Ubuntu Linux Operating System:</p></title>
+  <url>http://www.ubuntu.com/Cloud</url>
+</bibl>
+
+<bibl id="B50">
+  <title><p>OpenStack Installation Documentation:</p></title>
+  <url>http://docs.openstack.org/essex/openstack-compute/starter/content/CentOS-de1592.html</url>
+</bibl>
+
+<bibl id="B51">
+  <title><p>Eucalyptus Cloud Installation Packages:</p></title>
+  <url>http://www.eucalyptus.com/download/eucalyptus</url>
+</bibl>
+
+<bibl id="B52">
+  <title><p>OpenStack at Magellan Cloud:</p></title>
+  <url>http://www.alcf.anl.gov/magellan</url>
+</bibl>
+
+<bibl id="B53">
+  <title><p>OpenStack Cloud Installations:</p></title>
+  <url>http://openstack.org/user-stories/</url>
+</bibl>
+
+<bibl id="B54">
+  <title><p>VirtualBox desktop virtualization software:</p></title>
+  <url>http://www.virtualbox.org</url>
+</bibl>
+
+<bibl id="B55">
+  <title><p>Cloud BioLinux community site:</p></title>
+  <url>http://www.cloudbiolinux.org</url>
+</bibl>
+
+<bibl id="B56">
+  <title><p>Amazon CloudFront:</p></title>
+  <url>http://aws.amazon.com/cloudfront/</url>
+</bibl>
+
+<bibl id="B57">
+  <title><p>Educational Grants:</p></title>
+  <url>http://aws.amazon.com/grants/</url>
+</bibl>
+
+<bibl id="B58">
+  <title><p>Community datasets hosting:</p></title>
+  <url>http://aws.amazon.com/datasets</url>
+</bibl>
+
+<bibl id="B59">
+  <title><p>1000 Human Genomes dataset on the cloud:</p></title>
+  <url>http://aws.amazon.com/1000genomes/</url>
+</bibl>
+
+<bibl id="B60">
+  <title><p>NCBI Flue sequence datasets:</p></title>
+  <url>http://aws.amazon.com/datasets/2419</url>
+</bibl>
+
+<bibl id="B61">
+  <title><p>Ensembl Human Genome Annotation:</p></title>
+  <url>http://aws.amazon.com/datasets/3841</url>
+</bibl>
+
+<bibl id="B62">
   <title><p>Service-oriented computing: Concepts, characteristics and
   directions Web Information Systems Engineering, 2003. WISE 2003. Proceedings
   of the Fourth International Conference on</p></title>
@@ -733,6 +972,109 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
   <pubdate>2003</pubdate>
   <fpage>3</fpage>
   <lpage>-12</lpage>
+</bibl>
+
+<bibl id="B63">
+  <title><p>The case for cloud computing in genome informatics</p></title>
+  <aug>
+    <au><snm>Stein</snm><fnm>L. D.</fnm></au>
+  </aug>
+  <source>Genome Biology</source>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>5</issue>
+  <fpage>207</fpage>
+</bibl>
+
+<bibl id="B64">
+  <title><p>Illumina BaseSpace:</p></title>
+  <url>http://basespace.illumina.com</url>
+</bibl>
+
+<bibl id="B65">
+  <title><p>Broad Institute Genomespace portal:</p></title>
+  <url>http://www.genomespace.org</url>
+</bibl>
+
+<bibl id="B66">
+  <title><p>SeqWare Query Engine: storing and searching sequence data in the
+  cloud</p></title>
+  <aug>
+    <au><snm>D OConnor</snm><fnm>B.</fnm></au>
+    <au><snm>Merriman</snm><fnm>B.</fnm></au>
+    <au><snm>Nelson</snm><fnm>S.F.</fnm></au>
+  </aug>
+  <source>BMC bioinformatics</source>
+  <publisher>BioMed Central Ltd</publisher>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>Suppl 12</issue>
+  <fpage>S2</fpage>
+</bibl>
+
+<bibl id="B67">
+  <title><p>DNANexus Inc. :</p></title>
+  <url>http://www.dnanexus.com</url>
+</bibl>
+
+<bibl id="B68">
+  <title><p>Cloud computing: A study of infrastructure as a service
+  (IAAS)</p></title>
+  <aug>
+    <au><snm>Bhardwaj</snm><fnm>S.</fnm></au>
+    <au><snm>Jain</snm><fnm>L.</fnm></au>
+    <au><snm>Jain</snm><fnm>S.</fnm></au>
+  </aug>
+  <source>International Journal of engineering and information
+  Technology</source>
+  <pubdate>2010</pubdate>
+  <volume>2</volume>
+  <issue>1</issue>
+  <fpage>60</fpage>
+  <lpage>-63</lpage>
+</bibl>
+
+<bibl id="B69">
+  <title><p>A quantitative analysis of high performance computing with Amazon's
+  EC2 infrastructure: The death of the local cluster?</p></title>
+  <aug>
+    <au><snm>Hill</snm><fnm>Z.</fnm></au>
+    <au><snm>Humphrey</snm><fnm>M.</fnm></au>
+  </aug>
+  <source>Grid Computing, 2009 10th IEEE/ACM International Conference
+  on</source>
+  <pubdate>2009</pubdate>
+  <fpage>26</fpage>
+  <lpage>-33</lpage>
+</bibl>
+
+<bibl id="B70">
+  <title><p>Myrinet: A gigabit-per-second local area network</p></title>
+  <aug>
+    <au><snm>Boden</snm><fnm>N.J.</fnm></au>
+    <au><snm>Cohen</snm><fnm>D.</fnm></au>
+    <au><snm>Felderman</snm><fnm>R.E.</fnm></au>
+    <au><snm>Kulawik</snm><fnm>A.E.</fnm></au>
+    <au><snm>Seitz</snm><fnm>C.L.</fnm></au>
+    <au><snm>Seizovic</snm><fnm>J.N.</fnm></au>
+    <au><snm>Su</snm><fnm>W.K.</fnm></au>
+  </aug>
+  <source>Micro, IEEE</source>
+  <publisher>IEEE</publisher>
+  <pubdate>1995</pubdate>
+  <volume>15</volume>
+  <issue>1</issue>
+  <fpage>29</fpage>
+  <lpage>-36</lpage>
+</bibl>
+
+<bibl id="B71">
+  <title><p>InfiniBand Architecture Specification: Release 1.0</p></title>
+  <aug>
+    <au><snm>Association</snm><fnm>IT</fnm></au>
+  </aug>
+  <publisher>InfiniBand Trade Association</publisher>
+  <pubdate>2000</pubdate>
 </bibl>
 
 </refgrp>

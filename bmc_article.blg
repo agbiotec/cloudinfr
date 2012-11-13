@@ -6,6 +6,11 @@ Case mismatch error between cite keys Clarke2012 and clarke2012
  : \citation{Clarke2012
  :                     }
 I'm skipping whatever remains of this command
+Case mismatch error between cite keys Clarke2012 and clarke2012
+---line 88 of file bmc_article.aux
+ : \citation{Clarke2012
+ :                     }
+I'm skipping whatever remains of this command
 The style file: bmc_article.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=5001) to 20 items from 10.
@@ -14,31 +19,65 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bmc_article.bib
-I was expecting a `,' or a `}'---line 759 of file bmc_article.bib
- : 
- : sourceforge,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--entry type for "ebs" isn't style-file defined
+--line 42 of file bmc_article.bib
+Warning--entry type for "dnanexus" isn't style-file defined
+--line 59 of file bmc_article.bib
+Warning--entry type for "genomespace" isn't style-file defined
+--line 65 of file bmc_article.bib
+Warning--entry type for "basespace" isn't style-file defined
+--line 71 of file bmc_article.bib
+Warning--entry type for "awsflu" isn't style-file defined
+--line 99 of file bmc_article.bib
+Warning--entry type for "awsensembl" isn't style-file defined
+--line 105 of file bmc_article.bib
+Warning--entry type for "aws1000gen" isn't style-file defined
+--line 111 of file bmc_article.bib
+Warning--entry type for "awspublicdata" isn't style-file defined
+--line 117 of file bmc_article.bib
+Warning--entry type for "awsgrants" isn't style-file defined
+--line 123 of file bmc_article.bib
+Warning--entry type for "cloudfront" isn't style-file defined
+--line 129 of file bmc_article.bib
+Warning--entry type for "s3" isn't style-file defined
+--line 135 of file bmc_article.bib
+Warning--entry type for "cblorg" isn't style-file defined
+--line 141 of file bmc_article.bib
+Warning--entry type for "vbox" isn't style-file defined
+--line 147 of file bmc_article.bib
+Warning--entry type for "openstackinstalls" isn't style-file defined
+--line 153 of file bmc_article.bib
+Warning--entry type for "magellan" isn't style-file defined
+--line 159 of file bmc_article.bib
+Warning--entry type for "eucalyptusother" isn't style-file defined
+--line 165 of file bmc_article.bib
+Warning--entry type for "openstackother" isn't style-file defined
+--line 171 of file bmc_article.bib
+Warning--entry type for "ubuntucloud" isn't style-file defined
+--line 177 of file bmc_article.bib
+Warning--entry type for "openstack" isn't style-file defined
+--line 183 of file bmc_article.bib
+Warning--entry type for "awsforums" isn't style-file defined
+--line 189 of file bmc_article.bib
+Warning--entry type for "aws" isn't style-file defined
+--line 195 of file bmc_article.bib
+Warning--entry type for "ncbi" isn't style-file defined
+--line 201 of file bmc_article.bib
+Warning--entry type for "euca" isn't style-file defined
+--line 364 of file bmc_article.bib
 Warning--I didn't find a database entry for "Metzker2009"
 Warning--I didn't find a database entry for "Loman2012"
-Warning--I didn't find a database entry for "gogol2012overview"
 Warning--I didn't find a database entry for "johnson2008ncbi"
-Warning--I didn't find a database entry for "altschul1990basic"
 Warning--I didn't find a database entry for "Meyer2006"
-Warning--I didn't find a database entry for "ncbi"
 Warning--I didn't find a database entry for "ec2regions"
 Warning--I didn't find a database entry for "sourceforge"
 Warning--I didn't find a database entry for "cloudbio"
 Warning--I didn't find a database entry for "Uhling2005"
-Warning--I didn't find a database entry for "ebs"
-Warning--I didn't find a database entry for "aws"
-Warning--I didn't find a database entry for "s3"
-Warning--I didn't find a database entry for "awsforums"
-Warning--I didn't find a database entry for "stein"
 Warning--I didn't find a database entry for "altchul"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "youtube"
 Warning--empty year in venterdublin
+Warning--empty author and editor in Schrodinger1992
 Warning--empty journal in Illumina
 Warning--empty year in Illumina
 Warning--empty journal in solid5500
@@ -61,60 +100,53 @@ Warning--empty journal in github
 Warning--empty year in github
 Warning--empty journal in galaxywiki
 Warning--empty year in galaxywiki
-Warning--empty title in console
 Warning--empty journal in console
 Warning--empty year in console
-Warning--empty title in euca
-Warning--empty journal in euca
-Warning--empty year in euca
-Warning--empty title in openstack
-Warning--empty journal in openstack
-Warning--empty year in openstack
 Warning--empty title in googlegroup
 Warning--empty journal in googlegroup
 Warning--empty year in googlegroup
 Warning--empty title in fabric
 Warning--empty journal in fabric
 Warning--empty year in fabric
-You've used 42 entries,
+You've used 71 entries,
             3603 wiz_defined-function locations,
-            933 strings with 11197 characters,
-and the built_in function-call counts, 71702 in all, are:
-= -- 6424
-> -- 420
-< -- 185
-+ -- 538
-- -- 126
-* -- 7839
-:= -- 12522
-add.period$ -- 64
-call.type$ -- 42
-change.case$ -- 143
+            1037 strings with 14025 characters,
+and the built_in function-call counts, 104422 in all, are:
+= -- 9623
+> -- 518
+< -- 213
++ -- 670
+- -- 149
+* -- 10885
+:= -- 18096
+add.period$ -- 101
+call.type$ -- 71
+change.case$ -- 168
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 4969
-empty$ -- 5449
-format.name$ -- 572
-if$ -- 14076
+cite$ -- 103
+duplicate$ -- 7142
+empty$ -- 7742
+format.name$ -- 670
+if$ -- 20848
 int.to.chr$ -- 0
-int.to.str$ -- 84
-missing$ -- 1898
-newline$ -- 664
-num.names$ -- 79
-pop$ -- 1498
+int.to.str$ -- 142
+missing$ -- 3080
+newline$ -- 969
+num.names$ -- 89
+pop$ -- 2769
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 84
-skip$ -- 896
+quote$ -- 142
+skip$ -- 1798
 stack$ -- 0
-substring$ -- 10135
-swap$ -- 1131
-text.length$ -- 84
+substring$ -- 14469
+swap$ -- 1555
+text.length$ -- 98
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
-warning$ -- 38
-while$ -- 384
-width$ -- 44
-write$ -- 1231
+type$ -- 76
+warning$ -- 32
+while$ -- 441
+width$ -- 73
+write$ -- 1689
 (There were 2 error messages)

@@ -314,9 +314,9 @@ deposit software on open-source code repositories such as SourceForge \cite{sour
 bottleneck for researchers trying to utilize these tools is the requirement to download, compile and configure all the 
 dependencies including the type of operating system, software libraries, and computer hardware. This creates a bottleneck 
 for laboratories lacking the required informatics expertise or computational infrastructure, which can be overcome if bioinformatic
-core facilities capture and distributing the bioinformatics expertise developed during each sequencing project on Cloud servers 
+core facilities capture and distribute the bioinformatics expertise developed during each sequencing project on Cloud servers 
 containing pre-configured bioinformatics tools, made publicly available along with the data on the Cloud. In addition, this 
-approach can democratize access to computational resources requered for high throughput sequencing data analysis and 
+approach can democratize access to computational resources required for high throughput sequencing data analysis and 
 allow further  adoption of sequencing technology for basic biology research. Specialized compute servers with bioinformatics tools 
 and data pipelines available on the Cloud through the Amazon EC2 service for example, can provide publicly accessible, 
 high performance data analysis platform for use by research groups acquiring sequencing capability, that can be rented 
@@ -371,7 +371,6 @@ for sequencing data analysis, but can rent instead computational capacity from C
 the tools by starting the Cloud BioLinux VM through the Amazon cloud console web page \cite{console}, and 
 easily perform large-scale data analysis as we have demonstrated with the 1000 Human genomes data \cite{1000tube1},
 \cite{1000tube2},\cite{Clarke2012}. 
-
 
 The Cloud BioLinux VM is open-source, can be downloaded and modified, while advanced users can install and 
 run it on a private instance of the Eucalyptus \cite{euca} or Openstack \cite{openstack} Cloud platforms. 
@@ -466,11 +465,11 @@ by the same infrastructure that powers Amazon.com's e-commerce web portals. Serv
 bioinformatics computing offered by the Amazon Cloud include the Amazon Elastic Compute (EC2, \cite{awsec2}),  
 Elastic Block Store (EBS, \cite{ebs}) and Simple Storage Service (S3, \cite{s3}), while a complete list of the available 
 options can be found at \cite{aws}. These services provide respectively compute cycles through a high-performance 
-virtualization layer where users can run VM servers, virtual hard drives and data storage, while none
+virtualization layer where users can run Virtual Machine (VM) servers, virtual hard drives and data storage, while none
 is tied to any specific operating system, or programming model. Amazon Web Services also provides competitive
-pricing for these options, where a large capacity server with 64GB memory and 8 processor (CPU) cores for 
+pricing for these options, where a large capacity VM server with 64GB memory and 8 processor (CPU) cores for 
 example, that would suffice for most types of bioinformatic analysis costs \$2 US to rent per hour, and storage costs 
-\$0.01 US per GigaByte(GB) used per month (for a complete list see \cite{ec2price}). In addition, a large software 
+\$0.01 US per GigaByte (GB) used per month (for a complete list see \cite{ec2price}). In addition, a large software 
 developer community with a lot of expertise has been build during the past few years around Amazon Web Services 
 discussion forums \cite{awsforums}, and based on our experience questions regarding the different services or 
 requests for technical advice posted there, are always answered in a day or less.
@@ -481,102 +480,130 @@ of a VM server and run it on open source Clouds, such as Eucalyptus \cite{euca} 
 While OpenStack is the official Cloud of the Ubuntu Linux operating system \cite{ubuntucloud} and can be included 
 as default option on a compute cluster set-up to run with this Linux distribution, it can also be installed on 
 clusters running other Linux versions \cite{openstackother}. On the other hand, Eucalyptus is available as software 
-package for a range of Linux versions \cite{eucalyptusother}. These two open-source Cloud platforms are replicas 
+package for a range of Linux distributions \cite{eucalyptusother}. These two open-source Cloud platforms are replicas 
 of Amazon EC2 offering identical Application Programming Interfaces (API), meaning that applications developed 
 for one platform will work seamlessly across all three. Furthermore, by transferring VM servers across different 
 installations of these Clouds, researchers are not required to configure software since everything comes pre-installed 
 and ready-to-execute in the VM, allowing to leverage available bioinformatics tools and data analysis pipelines 
-with minimal effort \cite{Krampis2012}.For researchers that do not want to lease computing time from the Amazon 
-Cloud, or do not have access to a computer cluster where these Cloud platforms can be installed, OpenStack is 
+with minimal effort \cite{Krampis2012}.
+
+For researchers that do not want to lease computing time from the Amazon Cloud, or do not have access to a 
+compute cluster where the open-source Cloud platforms can be installed, OpenStack is 
 available through the government-funded  Magellan Cloud \cite{magellan}, in addition to a number of academic 
-computing centers in both the US and other countries \cite{openstackinstalls}. Another options for users is to
+computing centers in both the US and other countries \cite{openstackinstalls}. Another option for users is to
 to run the VM server on a desktop computer, using virtualization software such as VirtualBox \cite{vbox}, that
 is also open-source and can be installed with a single step on Windows, Mac or Linux desktop computers. The
 Cloud BioLinux project for example, provides on its website VM server downloads for all these platforms \cite{cblorg}.
 
-Data storage using a Cloud service has the advantage that large-scale sequencing datasets can be easily
-exchanged among collaborators worldwide. Inherent in the design of Amazon S3 (http://aws.amazon.com/s3)
-service is replication of data across several physical storage locations for disaster prevention, available
-currently on US East and West regions, European Union (Ireland) and Asia Pacific (Singapore). For the data
-upload a researcher can choose the closest region for minimizing data transfer latency over the internet.
-Following that, the Cloud service automatically replicates the data to different locations as part of the
-disaster prevention policy, allowing collaborating researchers to download the data from their closest region.
+Alternative Clouds include Google App Engine, Microsoft Azure, GoGrid [17] and FlexiScale [18].... from Vivek thesis.
 
-Currently Amazon S3 has offers a community program (http://aws.amazon.com/datasets) to host a variety of
-widely used public datasets at no charge for  researchers.  Bioinformatics-related datasets hosted for free
-come from the 1000 human genomes, the complete Genbank, Ensembl and Unigene databases, in addition to the
-Ensembl human genome annotation data. public data Researchers can then access, copy, modify and perform
-computation on these data volumes directly using pre-configured VMs on Amazon EC2 instances such as JCVI's
-Cloud Biolinux, and just pay for the compute and additional storage resources they use. We are in negotiations
-with Amazon to get support for hosting the data from this project as part of this program.
+Data storage using the Cloud provides the advantage that large-scale sequencing and other datasets can be 
+easily exchanged among collaborators globally. The Amazon S3 for example \cite{s3} offers access to data
+centers across several geographical regions including the US East and West regions, European Union (Ireland), 
+South America (Brazil), and Asia Pacific (both in Japan and Singapore). For data upload a researcher can choose 
+the closest region in order to minimize data transfer latency over the internet, then initiated replication across 
+the different locations through the Cloud service \cite{cloudfront}, and allowing collaborators worldwide to  
+retrieve the data from their geographically closest Cloud data center.
 
+Finally, researchers have the potential to access computational and data storage resources at no cost through 
+the  Amazon Web Services educational grants \cite{awsgrants}, that provide free computing and data storage 
+resources for teaching courses in any field that involves the use of cloud computing. Furthermore, the Amazon
+Cloud has established the public datasets program \cite{awspublicdata} that hosts a variety of large-scale public 
+datasets that are of wide interest to the different scientific communities. For example, genomic datasets hosted 
+through that program include the 1000 human genomes data \cite{Clarke2012}, \cite{aws1000gen}, the NCBI 
+flu genomes database \cite{awsflu}, and Ensembl human genome annotation data \cite{awsensembl} are a few 
+examples. Researchers can access, copy, and perform computation on these datasets using VM servers on Amazon
+Cloud, and just pay for the compute resources they use.
 
-\subsubsection*{Software or Infrastructure as A Service on the Cloud ?}
+\subsubsection*{Bioinformatics Computing and Science as A Service on the Cloud ?}
 
-Can Non-Computationally Savvy Researchers Access Cloud Informatics Infrastructures? 
+Science as a Service (ScaaS) for computational analysis of scientific datasets, can be defined along similar 
+lines with that of Software as a Service (SaaS, \cite{papazoglou2003}), where a provider offers pre-installed 
+and configured software on remote data centers. In principle, users of  ScaaS do not need to provision any 
+hardware other than a desktop computer and a network connection, and simply access software through a 
+web  browser or a client application. Furthermore, there is no requirement to purchase expensive hardware 
+for  large-scale computations or have expertise for performing complex software installations, as these are 
+handled by the SaaS provider. This approach can lead to significant savings for both cost of hardware and labor
+especially in the case of specialized applications involving only occasional large-scale computations.
 
-
-Software as a Service (SaaS, \cite{papazoglou2003}) ready to execute, but users have minimal control.
-
-The work for creating JCVI's Cloud BioLinux, was to offer software tools to the bioinformatics community was 
-driven by our vision of  Science as a Service (ScaaS) for computational analysis of scientific datasets, could be easily 
-defined along the lines of the well established model of Software as a Service (SaaS, \cite{papazoglou2003}), 
-where a provider offers pre-installed and configured applications on a local or remote data centers. Users of 
-ScaaS do not need to provision any computer hardware other than a desktop computer and a network connection, 
-which can lead to significant cost savings especially in the case of applications involving only occasional 
-large-scale computations that cannot justify significant investment in hardware. Users simply access the 
-software through a browser or a desktop client application that connects to a remote server Application 
-Programming Interface (API), do not need need expertise for performing specialized installations, configuration 
-or upgrades that are all taken care by the SaaS provider.  
-
-The need for Science as a Service (ScaaS) model for performing scientific computing, is most apparent in the 
-bioinformatics community, where there is significant fragmentation of access methods for both software and datasets 
-\cite{stein}. While some individual laboratories for example set-up websites that provide online access to the 
-tools, or researchers can use mainstream applications such as BLAST \cite{altchul} through centralized portals
-such as NCBI \cite{}, much of the software developed as part of publicly funded research is available as source 
-code for download and datasets as compressed files on FTP sites. All these options have significant disadvantages,  
-such as servers with fixed computational capacity posing a limitation on the dataset size that can be processed. 
-This puts the burden to scientists for provisioning computational infrastructure and technical expertise to compile
-software and perform complex installation procedures, while also in some cases need access to high performance computing 
-servers for specialized bioinformatics tasks such as genome assembly. In the current work we combined the convenience 
-of SaaS for end-users with the power of cloud computing, in order to bring pre-installed specialized bioinformatics application 
-which need large computational capacity such as those for genome assembly.
+A Science as a Service (ScaaS) model for computing could be beneficial for the bioinformatics community, 
+where currently there is significant fragmentation in the ways researchers access software or datasets
+created from publicly funded research \cite{Stein2010}.  Examples range from individual-run, small laboratories 
+that set-up websites providing online access to bioinformatic tools, to centralized web portals developed by large 
+institutions such as NCBI where researchers can access mainstream applications such as BLAST \cite{altchul}, 
+and finally software available for download just as source code along with datasets on FTP sites. A significant 
+disadvantage is that computer servers offered by small laboratories have fixed computational capacity that 
+poses a limit on the size of datasets that can be processed, while large institutions still are restricted 
+for the computational resources that they can offer to the public and cannot possibly provide access to all 
+specialized bioinformatic tools. In the case of software available only for download, provisioning computational 
+infrastructure and acquiring the technical expertise to compile software and perform complex installation 
+procedures can be a burden for scientists, especially in cases where access to high performance computing 
+servers for specialized bioinformatics tasks such as genome assembly is required. 
 
 
-Both public and commercial offerings pre-configured sequence analysis applications on
-the Cloud have become available. Illumina BaseSpace, GenomeSpace, SeqWare. On the commercial side, 
-DNAnexus (online ref.  3) currently includes tools
-for ChiPseq, RNAseq, 3'-end sequencing for expression quantification (3SEQ) and enzyme restriction analysis.
-DNAnexus runs on the Amazon Elastic Compute Cloud (EC2, online ref. 4), which provides on-demand virtual
-servers with various compute capacities. 
+Both public and commercial offerings of ScaaS sequence analysis tool suites on the Cloud have become available
+in recent years, including  Illumina BaseSpace \cite{basespace}, Broad Institute's GenomeSpace \cite{genomespace}, 
+SeqWare \cite{d2010seqware}. On the commercial side, DNAnexus \cite{dnanexus} currently includes tools for ChiPseq, 
+RNAseq, 3'-end sequencing for expression quantification (3SEQ) and enzyme restriction analysis. DNAnexus runs on 
+the Amazon Elastic Compute Cloud (EC2, online ref. 4), which provides on-demand virtual servers with various compute 
+capacities. 
 
-Alternative to the hosted services, Infrastructure as a Service (IaaS, \cite{}) users have more control but more flexibility 
-to customize resources to their needs.
+For users of the Cloud who require more control and additional flexibility to customize the computational infrastructure 
+were their software is running, an alternative computing model is Infrastructure as a Service (IaaS, \cite{bhardwaj2010cloud}).
+The Amazon Elastic Compute Cloud (EC2) is one of the most popular providers with this model and has become the 
+standard for  IaaS service providers. This Cloud uses Virtual Machines (VM) servers as the basic unit for computational 
+resource allocation, come in different capacities and costs, giving users the option to access different portions \cite{}  
+of the underlying physical servers. The term for the Amazon VMs is specifically Amazons Machine Images (AMIs), which 
+run on top of a virtualization layer, but user interaction is no different than accessing a physical server over the 
+network with its own virtual operating system, CPU and memory depending on the VM capacity selected. The network 
+latency for inter-communication of nodes of cluster instantiated using EC2 VMs, was found to be higher \cite{hill2009quantitative} 
+than that of high-speed, specialized cluster network interconnects such as Myrinet or Infiniband (\cite{boden1995myrinet},
+\cite{infiniband2000infiniband}). Nonetheless, users can rent at higher cost specialized VMs that are connected within 
+the Cloud with high-speed network \cite{instancetypes} and which have shown promising results in studies so far 
+\cite{jackson2010}. Overall, for applications other than those relying heavily on the use of message passing protocols 
+such as MPI \cite{} that require specialized networking within the cluster,  the on-demand accessibility of the Amazon 
+EC2 Cloud service can provide a viable alternative to dedicated clusters, directly comparable with commodity hardware 
+built clusters often found in scientific labs. 
 
-A user can start and access the OSMF Frame VM instance in three simple steps by using the Amazon EC2 cloud console graphical user interface that is accessible via a web browser: first the user signs up for an Amazon EC2 account and after she obtains the credentials logins to the cloud console (http://aws.amazon.com/console);  within the Amazon console the users clicks the “Launch Instance Wizard” button and specifies the OSMF Frame VM volume identifier (our project website will provide the VM identifier for the most recent update, but the latest VM will be also identifiable by the meta-data added to the volume); following the steps of the wizard within the web browser the users selects computational capacity and storage for the OSMF VM, and specifies a username and password for the OSMF WebInterface login (Fig.1, additional users can be created after the initial login); finally, once the wizard steps are complete and the VM status shows “running”, the user copies the assigned URL address of the VM from the Amazon cloud console in a new web browser window in order to access the OSMF interface. The process of starting a VM on the cloud and connecting to it has been documented for the JCVI Cloud BioLinux VM instances (REF), but nonetheless more detailed documentation, video tutorials and user support will be available from the proposed project's website and discussion forum (see Education & Outreach section).
+The options for data storage on the Amazon Cloud are multiple, with first being the transient virtual hard-drive 
+available as the root file system available when a user is running a VM. A second option includes additional Elastic
+Block Store (EBS,\cite{ebs}) hard drives up to 1 TeraByte (TB), multiples of which can be attached to each VM. While
+these are fully POSIX-compliant \cite{} data volumes that persist after VM shutdown and can be re-attached to a
+new VM booted at a later time, data stored on EBS only reside at a single Amazon data center.  Alternatively, disaster-
+proof, triple replicated across different data centers storage options is the Amazon Simple Storage Service (S3, \cite{}). 
+Note that in this case triple replication is not synonymous with backup in order to prevent accidental deletion by the user, 
+but instead refers to protection from physical disaster and permanent loss when data reside at a single data center. 
+Amazon S3 provides storage at low cost, high scalability for concurrent reading of the same data file from multiple
+applications running on  EC2 VMs on the same cloud or any server on the internet, in addition to highly-available, 
+disaster-proof service where data are replicated across three different data centers. The S3 storage model deviates
+from that of a POSIX-compliant hard drives, but instead uses data objects with unique Uniform Resource Location (URL) 
+identifiers across the Amazon Cloud platform and the wider internet. In detail, S3 is organized over a two-level 
+namespace with top-level folders called "buckets", and while each Amazon account may have up to 100 S3 buckets
+each bucket can store an unlimited number of data objects. While each file on S3 can be accessed directly using its
+URL, for querying the service and in order to retrieve, update or delete the files two Application Programming Interfaces 
+(API) are available: one based on the Representational State Transfer protocol (REST, \cite{fielding2000}) and the second 
+on the Simple  Object Access Protocol (SOAP, \cite{soap}) . The user can read publicly accessible files on S3 simply by
+reading the URL of the file through a web browser, while for files that require authentication or to upload
+and modify files, users can programmatically access the service through the different scripting libraries  \cite{}. 
 
-
-For researchers that would like to leverage the advantages of a VM with the pre-installed assembly portal for
-working with the completed assemblies but consider the public Cloud as not secure option, we will offer the
-alternative of returning to them by mail an external hard drive with a VM containing with the portal and
-assembly data. Users will then be able to load and execute the VM on a local computer cluster with a
-Eucalyptus/OpenStack Cloud or on a PC using Virtualbox. We are currently offering a similar solution with
-Cloud BioLinux [3], where the project's VM is available for download and execution on a local Cloud or a PC
-from our website [4].  Upon local execution of a VM users will simply need to point their browser to the
-portal's Internet or local IP address [55] assigned automatically by either the Cloud or Virtualbox (Fig.1B).
-The IP address is available through each Cloud platform's or the Virtualbox software administrative
-interface, and we will provide extensive documentation (see subsequent paragraph) on uploading, running and
-accessing a local VM on the different platforms by extending the available Cloud BioLinux project
-documentation.
-
-An intuitive \cite{youtube}
-our VM with the pre-installed tools on the Amazon EC2 Cloud, they will only need to follow four simple steps
-through their web browser: visit the Amazon Cloud website and create a new account, start the VM execution
-wizard through the Cloud's control console [58], choose computational capacity for the VM (memory,
-processor, cores, storage capacity), and specify username and password credentials for accessing the running
-VM. Each running VM receives a unique web address, and by using their web browser to access the address, a
-researcher can login to the portal interface with the assembly tools. These four steps are described in detail
-in our Cloud BioLinux publication and the project's documentation [59].
+Using BitTorrent S3 can provide tracker and seed functionality which 
+ can save bandwidth when multiple concurrent clients are demanding the same set of objects. S3 has attracted a 
+ large user base due to its simple charging scheme, unlimited storage capacity, open protocols, and simple API 
+ for easy integration with applications. But the current S3 design needs to be improved before it can provide 
+ durable storage for scientific community[24]. A storage infrastructure which aims at data intensive scientific 
+ community must provide data durability, data availability, access performance, usability, support for security 
+ and privacy and low cost. S3 show 100 percent durability,for concurrent performance and remote access 
+ performance with high competency, but the cost of storing data for experiments like DZero[20] can cost upto  
+ $1.02 million for a year [24].  Storage cost can be reduced by storing 'cold' data (rarely used data) on low cost 
+ storage and maintaining only the data most likely to be used on high-availability, low-latency storage. Another 
+ way is to only store raw data and derive the rest from the raw data. This is called the Reduced Redundancy Storage 
+ which is a storage option in the Amazon S3 [http://aws.amazon.com/s3]. It allows users to cut down on the costs 
+ by storing non-critical, reproducible data at lower levels of redundancy than Amazon S3’s standard storage S3 doesn't provide any checkpoint or back up facility for data which are accidentally erased or modified. S3 
+charging scheme (doesn't support any user specified usage limit) also cannot avoid or handle a monetary loss 
+if an attacker repeatedly transfers data to and from an S3 bucket or in case of a buggy program. These risks can 
+be avoided by using S3 as the back end of a storage system, and having users connect to a front-end running on 
+Amazon's EC2 service. The front-end would be responsible for individual account management, fine-grained trust 
+decisions, and billing.[24]
 
 
 \subsubsection*{Which Factors Challenge Adoption of Cloud-Based Solutions for Bioinformatics }
@@ -601,6 +628,46 @@ GB of bandwith consumed, which would add up to 60 for a 600GB data upload. In ad
 expense for obtaining a high-bandwidth internet connection for the data upload should be taken into account.
 We expect the Microsoft Azure Cloud platform to offer a similar service in the near future, given the requests
 on the Azure developer forums and the immediate consideration of the matter by Microsoft (online ref. 15).
+
+For researchers that would like to leverage the advantages of a VM with the pre-installed assembly portal for
+working with the completed assemblies but consider the public Cloud as not secure option, we will offer the
+alternative of returning to them by mail an external hard drive with a VM containing with the portal and
+assembly data. Users will then be able to load and execute the VM on a local computer cluster with a
+Eucalyptus/OpenStack Cloud or on a PC using Virtualbox. We are currently offering a similar solution with
+Cloud BioLinux [3], where the project's VM is available for download and execution on a local Cloud or a PC
+from our website [4].  Upon local execution of a VM users will simply need to point their browser to the
+portal's Internet or local IP address [55] assigned automatically by either the Cloud or Virtualbox (Fig.1B).
+The IP address is available through each Cloud platform's or the Virtualbox software administrative
+interface, and we will provide extensive documentation (see subsequent paragraph) on uploading, running and
+accessing a local VM on the different platforms by extending the available Cloud BioLinux project
+documentation.
+
+An intuitive \cite{youtube}
+our VM with the pre-installed tools on the Amazon EC2 Cloud, they will only need to follow four simple steps
+through their web browser: visit the Amazon Cloud website and create a new account, start the VM execution
+wizard through the Cloud's control console [58], choose computational capacity for the VM (memory,
+processor, cores, storage capacity), and specify username and password credentials for accessing the running
+VM. Each running VM receives a unique web address, and by using their web browser to access the address, a
+researcher can login to the portal interface with the assembly tools. These four steps are described in detail
+in our Cloud BioLinux publication and the project's documentation [59].
+
+In the Cloud BioLinux work we combined the convenience of SaaS for end-users with the power of cloud computing, 
+in order to bring pre-installed specialized bioinformatics application which need large computational capacity 
+such as those for genome assembly while simplifying the the way users can get onto the cloud.
+A user can start and access the OSMF Frame VM instance in three simple steps by using the Amazon EC2 cloud console 
+graphical user interface that is accessible via a web browser: first the user signs up for an Amazon EC2 account and 
+after she obtains the credentials logins to the cloud console (http://aws.amazon.com/console);  within the Amazon 
+console the users clicks the “Launch Instance Wizard” button and specifies the OSMF Frame VM volume identifier 
+(our project website will provide the VM identifier for the most recent update, but the latest VM will be also identifiable 
+by the meta-data added to the volume); following the steps of the wizard within the web browser the users selects 
+computational capacity and storage for the OSMF VM, and specifies a username and password for the OSMF 
+WebInterface login (Fig.1, additional users can be created after the initial login); finally, once the wizard steps are 
+complete and the VM status shows “running”, the user copies the assigned URL address of the VM from the Amazon 
+cloud console in a new web browser window in order to access the OSMF interface. Through the URL users can get access
+to CloudMan and Galaxy (ref Enis and Brad)The process of starting a VM on 
+the cloud and connecting to it has been documented for the JCVI Cloud BioLinux VM instances (REF), but nonetheless 
+more detailed documentation, video tutorials and user support will be available from the proposed project's website 
+and discussion forum (see Education & Outreach section).
 
 
 
