@@ -17,6 +17,18 @@ Gibson D, Glass J, Lartigue C, Noskov V, Chuang R, Algire M, Benders G,
   by a chemically synthesized genome}. \emph{science} 2010,
   \textbf{329}(5987):52--56.
 
+\bibitem{Rusch2007}
+Rusch D, Halpern A, Sutton G, Heidelberg K, Williamson S, Yooseph S, Wu D,
+  Eisen J, Hoffman J, Remington K: \textbf{The Sorcerer II global ocean
+  sampling expedition: northwest Atlantic through eastern tropical Pacific}.
+  \emph{PLoS biology} 2007, \textbf{5}(3):e77.
+
+\bibitem{Nelson2010}
+Nelson K, Weinstock G, Highlander S, Worley K, Creasy H, Wortman J, Rusch D,
+  Mitreva M, Sodergren E, Chinwalla A: \textbf{A catalog of reference genomes
+  from the human microbiome}. \emph{Science (New York, NY)} 2010,
+  \textbf{328}(5981):994.
+
 \bibitem{Mason2012}
 Mason C, Elemento O: \textbf{Faster sequencers, larger datasets, new
   challenges}. \emph{Genome Biology} 2012.
@@ -30,21 +42,13 @@ Inc AB: \textbf{The SOLiD 5500 sequencing system.}
 \bibitem{PacBio}
 Inc PB: \textbf{PacBio RS sequencing technology}.
 
+\bibitem{Loman2012a}
+Loman N, Misra R, Dallman T: \textbf{Performance comparison of benchtop
+  high-throughput sequencing platforms} 2012.
+
 \bibitem{Mardis2008}
 Mardis E: \textbf{Next-generation DNA sequencing methods}. \emph{Annu. Rev.
   Genomics Hum. Genet.} 2008, \textbf{9}:387--402.
-
-\bibitem{Rusch2007}
-Rusch D, Halpern A, Sutton G, Heidelberg K, Williamson S, Yooseph S, Wu D,
-  Eisen J, Hoffman J, Remington K: \textbf{The Sorcerer II global ocean
-  sampling expedition: northwest Atlantic through eastern tropical Pacific}.
-  \emph{PLoS biology} 2007, \textbf{5}(3):e77.
-
-\bibitem{Nelson2010}
-Nelson K, Weinstock G, Highlander S, Worley K, Creasy H, Wortman J, Rusch D,
-  Mitreva M, Sodergren E, Chinwalla A: \textbf{A catalog of reference genomes
-  from the human microbiome}. \emph{Science (New York, NY)} 2010,
-  \textbf{328}(5981):994.
 
 \bibitem{gogol2012overview}
 Gogol-D{\"o}ring A, Chen W, et~al.: \textbf{An overview of the analysis of next
@@ -56,10 +60,19 @@ Altschul S, Gish W, Miller W, Myers E, Lipman D, et~al.: \textbf{Basic local
   alignment search tool}. \emph{Journal of molecular biology} 1990,
   \textbf{215}(3):403--410.
 
+\bibitem{johnson2008ncbi}
+Johnson M, Zaretskaya I, Raytselis Y, Merezhuk Y, McGinnis S, Madden T:
+  \textbf{NCBI BLAST: a better web interface}. \emph{Nucleic acids research}
+  2008, \textbf{36}(suppl 2):W5--W9.
+
 \bibitem{Pruitt2009}
 Pruitt K, Tatusova T, Klimke W, Maglott D: \textbf{NCBI Reference Sequences:
   current status, policy and new initiatives}. \emph{Nucleic acids research}
   2009, \textbf{37}(suppl 1):D32--D36.
+
+\bibitem{schaller1997moore}
+Schaller R: \textbf{Moore's law: past, present and future}. \emph{Spectrum,
+  IEEE} 1997, \textbf{34}(6):52--59.
 
 \bibitem{ncbi}
 \textbf{National Center for Biotechnology
@@ -74,6 +87,9 @@ Services AW: \textbf{Elastic Compute Cloud (EC2)}.
 \bibitem{ec2price}
 Services AW: \textbf{EC2 Pricing}.
 
+\bibitem{ec2regions}
+\textbf{Amazon EC2 Cloud global regions}.
+
 \bibitem{clarke2012}
 Clarke L, Zheng-Bradley X, Smith R, Kulesha E, Xiao C, Toneva I, Vaughan B,
   Preuss D, Leinonen R, Shumway M: \textbf{The 1000 Genomes Project: data
@@ -81,15 +97,18 @@ Clarke L, Zheng-Bradley X, Smith R, Kulesha E, Xiao C, Toneva I, Vaughan B,
   \textbf{9}(5):459--462.
 
 \bibitem{1000tube1}
-Krampis K: .
+Krampis K: \textbf{Accessing 1000 Human Genomes Data with Cloud BioLinux}.
 
 \bibitem{1000tube2}
-Krampis K: .
+Krampis K: \textbf{Accessing 1000 Human Genomes Data with Cloud BioLinux}.
 
 \bibitem{Krampis2012}
 Krampis K, Booth T, Chapman B, Tiwari B, Bicak M, Field D, Nelson KE:
   \textbf{Cloud BioLinux: pre-configured and on-demand bioinformatics computing
   for the genomics community}. \emph{BMC Bioinformatics} 2012, \textbf{13}:42.
+
+\bibitem{sourceforge}
+\textbf{SourceForge open-source code repository}.
 
 \bibitem{github}
 Inc G: \textbf{Open-Source code repository}.
@@ -182,8 +201,28 @@ Groups G: .
 \bibitem{fabric}
 framework CBD: .
 
+\bibitem{genomespace}
+\textbf{Broad Institute Genomespace
+  portal:}\urlprefix\url{[http://www.genomespace.org]}.
+
+\bibitem{d2010seqware}
+D~OConnor B, Merriman B, Nelson S: \textbf{SeqWare Query Engine: storing and
+  searching sequence data in the cloud}. \emph{BMC bioinformatics} 2010,
+  \textbf{11}(Suppl 12):S2.
+
+\bibitem{basespace}
+\textbf{Illumina BaseSpace:}\urlprefix\url{[http://basespace.illumina.com]}.
+
+\bibitem{dnanexus}
+\textbf{DNANexus Inc.:}\urlprefix\url{[http://www.dnanexus.com]}.
+
 \bibitem{Wilkening2009}
 \emph{Using clouds for metagenomics: A case study}, IEEE 2009.
+
+\bibitem{Uhlig2005}
+Uhlig R, Neiger G, Rodgers D, Santoni A, Martins F, Anderson A, Bennett S, Kagi
+  A, Leung F, Smith L: \textbf{Intel virtualization technology}.
+  \emph{Computer} 2005, \textbf{38}(5):48--56.
 
 \bibitem{Dudley2010}
 Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
@@ -214,6 +253,30 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
 \textbf{Eucalyptus Cloud Installation
   Packages:}\urlprefix\url{[http://www.eucalyptus.com/download/eucalyptus]}.
 
+\bibitem{appengine}
+\textbf{Google Apple Engine}.
+
+\bibitem{azure}
+\textbf{Microsoft Windows Azure}.
+
+\bibitem{gogrid}
+\textbf{Go Grid Cloud}.
+
+\bibitem{flexiscale}
+\textbf{Flexiscale Cloud}.
+
+\bibitem{smartcloud}
+\textbf{IBM SmartCloud}.
+
+\bibitem{python}
+\textbf{Python Programming Language}.
+
+\bibitem{net}
+\textbf{Microsoft .NET Framework}.
+
+\bibitem{scriptaws}
+\textbf{BioTeam: Scriptable Cloud Infrastructures}.
+
 \bibitem{magellan}
 \textbf{OpenStack at Magellan
   Cloud:}\urlprefix\url{[http://www.alcf.anl.gov/magellan]}.
@@ -229,9 +292,6 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
 \bibitem{cblorg}
 \textbf{Cloud BioLinux community
   site:}\urlprefix\url{[http://www.cloudbiolinux.org]}.
-
-\bibitem{cloudfront}
-\textbf{Amazon CloudFront:}\urlprefix\url{[http://aws.amazon.com/cloudfront/]}.
 
 \bibitem{awsgrants}
 \textbf{Educational Grants:}\urlprefix\url{[http://aws.amazon.com/grants/]}.
@@ -252,6 +312,29 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
 \textbf{Ensembl Human Genome
   Annotation:}\urlprefix\url{[http://aws.amazon.com/datasets/3841]}.
 
+\bibitem{cloudfront}
+\textbf{Amazon CloudFront:}\urlprefix\url{[http://aws.amazon.com/cloudfront/]}.
+
+\bibitem{fielding2000}
+Fielding R: \textbf{Representational state transfer (REST)}.
+  \emph{Architectural Styles and the Design of Network-based Software
+  Architectures. University of California, Irvine} 2000, :120.
+
+\bibitem{soap}
+\textbf{Simple Object Access Protocol (SOAP):}.
+
+\bibitem{s3developer}
+Libraries SD: .
+
+\bibitem{s3fox}
+\textbf{Amazon Cloud Storage S3 Add-On}.
+
+\bibitem{reduced}
+\textbf{S3 Reduced Redudancy Storage}.
+
+\bibitem{glacier}
+\textbf{Amazon Glacier storage service}.
+
 \bibitem{papazoglou2003}
 \emph{Service-oriented computing: Concepts, characteristics and directions Web
   Information Systems Engineering, 2003. WISE 2003. Proceedings of the Fourth
@@ -261,25 +344,20 @@ Dudley JT, Butte AJ: \textbf{In silico research in the era of cloud computing}.
 Stein LD: \textbf{The case for cloud computing in genome informatics}.
   \emph{Genome Biology} 2010, \textbf{11}(5):207.
 
-\bibitem{basespace}
-\textbf{Illumina BaseSpace:}\urlprefix\url{[http://basespace.illumina.com]}.
-
-\bibitem{genomespace}
-\textbf{Broad Institute Genomespace
-  portal:}\urlprefix\url{[http://www.genomespace.org]}.
-
-\bibitem{d2010seqware}
-D~OConnor B, Merriman B, Nelson S: \textbf{SeqWare Query Engine: storing and
-  searching sequence data in the cloud}. \emph{BMC bioinformatics} 2010,
-  \textbf{11}(Suppl 12):S2.
-
-\bibitem{dnanexus}
-\textbf{DNANexus Inc. :}\urlprefix\url{[http://www.dnanexus.com]}.
-
 \bibitem{bhardwaj2010cloud}
 Bhardwaj S, Jain L, Jain S: \textbf{Cloud computing: A study of infrastructure
   as a service (IAAS)}. \emph{International Journal of engineering and
   information Technology} 2010, \textbf{2}:60--63.
+
+\bibitem{instancetypes}
+\textbf{Amazon EC2 Cloud instance types:}.
+
+\bibitem{jackson2010}
+Jackson K, Ramakrishnan L, Muriki K, Canon S, Cholia S, Shalf J, Wasserman H,
+  Wright N: \textbf{Performance analysis of high performance computing
+  applications on the amazon web services cloud}. In \emph{Cloud Computing
+  Technology and Science (CloudCom), 2010 IEEE Second International Conference
+  on}, IEEE 2010:159--168.
 
 \bibitem{hill2009quantitative}
 Hill Z, Humphrey M: \textbf{A quantitative analysis of high performance
@@ -343,49 +421,6 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
 </bibl>
 
 <bibl id="B4">
-  <title><p>Faster sequencers, larger datasets, new challenges</p></title>
-  <aug>
-    <au><snm>Mason</snm><fnm>CE</fnm></au>
-    <au><snm>Elemento</snm><fnm>O</fnm></au>
-  </aug>
-  <source>Genome Biology</source>
-  <pubdate>2012</pubdate>
-</bibl>
-
-<bibl id="B5">
-  <title><p>Technical Specifications of Illumina Sequencers</p></title>
-  <aug>
-    <au><snm>Illumina</snm><fnm>I</fnm></au>
-  </aug>
-</bibl>
-
-<bibl id="B6">
-  <title><p>The SOLiD 5500 sequencing system.</p></title>
-  <aug>
-    <au><snm>Inc.</snm><fnm>AB</fnm></au>
-  </aug>
-</bibl>
-
-<bibl id="B7">
-  <title><p>PacBio RS sequencing technology</p></title>
-  <aug>
-    <au><snm>Inc.</snm><fnm>PB</fnm></au>
-  </aug>
-</bibl>
-
-<bibl id="B8">
-  <title><p>Next-generation DNA sequencing methods</p></title>
-  <aug>
-    <au><snm>Mardis</snm><fnm>E.R.</fnm></au>
-  </aug>
-  <source>Annu. Rev. Genomics Hum. Genet.</source>
-  <pubdate>2008</pubdate>
-  <volume>9</volume>
-  <fpage>387</fpage>
-  <lpage>402</lpage>
-</bibl>
-
-<bibl id="B9">
   <title><p>The Sorcerer II global ocean sampling expedition: northwest
   Atlantic through eastern tropical Pacific</p></title>
   <aug>
@@ -407,7 +442,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <fpage>e77</fpage>
 </bibl>
 
-<bibl id="B10">
+<bibl id="B5">
   <title><p>A catalog of reference genomes from the human
   microbiome</p></title>
   <aug>
@@ -429,7 +464,61 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <fpage>994</fpage>
 </bibl>
 
+<bibl id="B6">
+  <title><p>Faster sequencers, larger datasets, new challenges</p></title>
+  <aug>
+    <au><snm>Mason</snm><fnm>CE</fnm></au>
+    <au><snm>Elemento</snm><fnm>O</fnm></au>
+  </aug>
+  <source>Genome Biology</source>
+  <pubdate>2012</pubdate>
+</bibl>
+
+<bibl id="B7">
+  <title><p>Technical Specifications of Illumina Sequencers</p></title>
+  <aug>
+    <au><snm>Illumina</snm><fnm>I</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B8">
+  <title><p>The SOLiD 5500 sequencing system.</p></title>
+  <aug>
+    <au><snm>Inc.</snm><fnm>AB</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B9">
+  <title><p>PacBio RS sequencing technology</p></title>
+  <aug>
+    <au><snm>Inc.</snm><fnm>PB</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B10">
+  <title><p>Performance comparison of benchtop high-throughput sequencing
+  platforms</p></title>
+  <aug>
+    <au><snm>Loman</snm><fnm>NJ</fnm></au>
+    <au><snm>Misra</snm><fnm>RV</fnm></au>
+    <au><snm>Dallman</snm><fnm>TJ</fnm></au>
+  </aug>
+  <pubdate>2012</pubdate>
+</bibl>
+
 <bibl id="B11">
+  <title><p>Next-generation DNA sequencing methods</p></title>
+  <aug>
+    <au><snm>Mardis</snm><fnm>E.R.</fnm></au>
+  </aug>
+  <source>Annu. Rev. Genomics Hum. Genet.</source>
+  <pubdate>2008</pubdate>
+  <volume>9</volume>
+  <fpage>387</fpage>
+  <lpage>402</lpage>
+</bibl>
+
+<bibl id="B12">
   <title><p>An overview of the analysis of next generation sequencing
   data</p></title>
   <aug>
@@ -445,7 +534,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-257</lpage>
 </bibl>
 
-<bibl id="B12">
+<bibl id="B13">
   <title><p>Basic local alignment search tool</p></title>
   <aug>
     <au><snm>Altschul</snm><fnm>S.F.</fnm></au>
@@ -464,7 +553,26 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-410</lpage>
 </bibl>
 
-<bibl id="B13">
+<bibl id="B14">
+  <title><p>NCBI BLAST: a better web interface</p></title>
+  <aug>
+    <au><snm>Johnson</snm><fnm>M.</fnm></au>
+    <au><snm>Zaretskaya</snm><fnm>I.</fnm></au>
+    <au><snm>Raytselis</snm><fnm>Y.</fnm></au>
+    <au><snm>Merezhuk</snm><fnm>Y.</fnm></au>
+    <au><snm>McGinnis</snm><fnm>S.</fnm></au>
+    <au><snm>Madden</snm><fnm>T.L.</fnm></au>
+  </aug>
+  <source>Nucleic acids research</source>
+  <publisher>Oxford Univ Press</publisher>
+  <pubdate>2008</pubdate>
+  <volume>36</volume>
+  <issue>suppl 2</issue>
+  <fpage>W5</fpage>
+  <lpage>-W9</lpage>
+</bibl>
+
+<bibl id="B15">
   <title><p>NCBI Reference Sequences: current status, policy and new
   initiatives</p></title>
   <aug>
@@ -481,33 +589,51 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>D36</lpage>
 </bibl>
 
-<bibl id="B14">
+<bibl id="B16">
+  <title><p>Moore's law: past, present and future</p></title>
+  <aug>
+    <au><snm>Schaller</snm><fnm>R.R.</fnm></au>
+  </aug>
+  <source>Spectrum, IEEE</source>
+  <publisher>IEEE</publisher>
+  <pubdate>1997</pubdate>
+  <volume>34</volume>
+  <issue>6</issue>
+  <fpage>52</fpage>
+  <lpage>-59</lpage>
+</bibl>
+
+<bibl id="B17">
   <title><p>National Center for Biotechnology Information:</p></title>
   <url>http://www.ncbi.nlm.nih.gov</url>
 </bibl>
 
-<bibl id="B15">
+<bibl id="B18">
   <title><p>Sequence Read Archive</p></title>
   <aug>
     <au><snm>Information</snm><fnm>NCFB</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B16">
+<bibl id="B19">
   <title><p>Elastic Compute Cloud (EC2)</p></title>
   <aug>
     <au><snm>Services</snm><fnm>AW</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B17">
+<bibl id="B20">
   <title><p>EC2 Pricing</p></title>
   <aug>
     <au><snm>Services</snm><fnm>AW</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B18">
+<bibl id="B21">
+  <title><p>Amazon EC2 Cloud global regions</p></title>
+</bibl>
+
+<bibl id="B22">
   <title><p>The 1000 Genomes Project: data management and community
   access</p></title>
   <aug>
@@ -530,19 +656,21 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>462</lpage>
 </bibl>
 
-<bibl id="B19">
+<bibl id="B23">
+  <title><p>Accessing 1000 Human Genomes Data with Cloud BioLinux</p></title>
   <aug>
     <au><snm>Krampis</snm><fnm>K.</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B20">
+<bibl id="B24">
+  <title><p>Accessing 1000 Human Genomes Data with Cloud BioLinux</p></title>
   <aug>
     <au><snm>Krampis</snm><fnm>K.</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B21">
+<bibl id="B25">
   <title><p>Cloud BioLinux: pre-configured and on-demand bioinformatics
   computing for the genomics community</p></title>
   <aug>
@@ -560,14 +688,18 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <fpage>42</fpage>
 </bibl>
 
-<bibl id="B22">
+<bibl id="B26">
+  <title><p>SourceForge open-source code repository</p></title>
+</bibl>
+
+<bibl id="B27">
   <title><p>Open-Source code repository</p></title>
   <aug>
     <au><snm>Inc</snm><fnm>G</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B28">
   <title><p>The biology workbench---A seamless database and analysis
   environment for the biologist</p></title>
   <aug>
@@ -581,7 +713,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-2</lpage>
 </bibl>
 
-<bibl id="B24">
+<bibl id="B29">
   <title><p>A Web interface generator for molecular biology programs in
   Unix</p></title>
   <aug>
@@ -595,7 +727,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-82</lpage>
 </bibl>
 
-<bibl id="B25">
+<bibl id="B30">
   <title><p>wEMBOSS: a web interface for EMBOSS</p></title>
   <aug>
     <au><snm>Sarachu</snm><fnm>M</fnm></au>
@@ -609,7 +741,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-541</lpage>
 </bibl>
 
-<bibl id="B26">
+<bibl id="B31">
   <title><p>Mobyle: a new full web bioinformatics framework
   Bioinformatics</p></title>
   <aug>
@@ -631,7 +763,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-3011</lpage>
 </bibl>
 
-<bibl id="B27">
+<bibl id="B32">
   <title><p>BioManager: the use of a bioinformatics web application as a
   teaching tool in undergraduate bioinformatics training</p></title>
   <aug>
@@ -646,7 +778,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-465</lpage>
 </bibl>
 
-<bibl id="B28">
+<bibl id="B33">
   <title><p>Implementing bioinformatic workflows within the BioExtract
   Server</p></title>
   <aug>
@@ -665,7 +797,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-312</lpage>
 </bibl>
 
-<bibl id="B29">
+<bibl id="B34">
   <title><p>The Genome Portal of the Department of Energy Joint Genome
   Institute</p></title>
   <aug>
@@ -688,7 +820,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>D32</lpage>
 </bibl>
 
-<bibl id="B30">
+<bibl id="B35">
   <title><p>Camera 2.0: A data-centric metagenomics community infrastructure
   driven by scientific workflows</p></title>
   <aug>
@@ -711,7 +843,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>359</lpage>
 </bibl>
 
-<bibl id="B31">
+<bibl id="B36">
   <title><p>The EBI Metagenomics Archive, Integration and Analysis
   Resource</p></title>
   <aug>
@@ -726,7 +858,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>340</lpage>
 </bibl>
 
-<bibl id="B32">
+<bibl id="B37">
   <title><p>Subsystems-based servers for rapid annotation of genomes and
   metagenomes</p></title>
   <aug>
@@ -739,7 +871,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <fpage>O2</fpage>
 </bibl>
 
-<bibl id="B33">
+<bibl id="B38">
   <title><p>Galaxy: a comprehensive approach for supporting accessible,
   reproducible, and transparent computational research in the life
   sciences</p></title>
@@ -755,7 +887,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <fpage>R86</fpage>
 </bibl>
 
-<bibl id="B34">
+<bibl id="B39">
   <title><p>CloVR: A virtual machine for automated and portable sequence
   analysis from the desktop using cloud computing</p></title>
   <aug>
@@ -777,7 +909,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <fpage>356</fpage>
 </bibl>
 
-<bibl id="B35">
+<bibl id="B40">
   <title><p>Distributed workflow-driven analysis of large-scale biological data
   using biokepler</p></title>
   <aug>
@@ -791,14 +923,14 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>42</lpage>
 </bibl>
 
-<bibl id="B36">
+<bibl id="B41">
   <title><p>Galaxy Bioinformatics Wiki</p></title>
   <aug>
     <au><snm>team</snm><fnm>Gd</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B37">
+<bibl id="B42">
   <title><p>Galaxy CloudMan: delivering cloud compute clusters</p></title>
   <aug>
     <au><snm>Afgan</snm><fnm>E.</fnm></au>
@@ -815,188 +947,41 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <fpage>S4</fpage>
 </bibl>
 
-<bibl id="B38">
+<bibl id="B43">
   <title><p>Amazon Cloud Console</p></title>
   <aug>
     <au><snm>Services</snm><fnm>AW</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B39">
+<bibl id="B44">
   <title><p>Eucalyptus Open Source Cloud Platform:</p></title>
   <url>http://open.eucalyptus.com</url>
 </bibl>
 
-<bibl id="B40">
+<bibl id="B45">
   <title><p>OpenStack Open Source Cloud Platform:</p></title>
   <url>http://www.openstack.org</url>
 </bibl>
 
-<bibl id="B41">
+<bibl id="B46">
   <aug>
     <au><snm>Groups</snm><fnm>G</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B42">
+<bibl id="B47">
   <aug>
     <au><snm>framework</snm><fnm>CBD</fnm></au>
   </aug>
 </bibl>
 
-<bibl id="B43">
-  <title><p>Using clouds for metagenomics: A case study</p></title>
-  <aug>
-    <au><snm>Wilkening</snm><fnm>J.</fnm></au>
-    <au><snm>Wilke</snm><fnm>A.</fnm></au>
-    <au><snm>Desai</snm><fnm>N.</fnm></au>
-    <au><snm>Meyer</snm><fnm>F.</fnm></au>
-  </aug>
-  <source>Using clouds for metagenomics: A case study</source>
-  <publisher>IEEE</publisher>
-  <pubdate>2009</pubdate>
-  <fpage>1</fpage>
-  <lpage>6</lpage>
-</bibl>
-
-<bibl id="B44">
-  <title><p>In silico research in the era of cloud computing</p></title>
-  <aug>
-    <au><snm>Dudley</snm><fnm>J. T.</fnm></au>
-    <au><snm>Butte</snm><fnm>A. J.</fnm></au>
-  </aug>
-  <source>Nature biotechnology</source>
-  <pubdate>2010</pubdate>
-  <volume>28</volume>
-  <issue>11</issue>
-  <fpage>1181</fpage>
-  <lpage>1185</lpage>
-</bibl>
-
-<bibl id="B45">
-  <title><p>Elastic Block Store:</p></title>
-  <url>http://aws.amazon.com/ebs</url>
-</bibl>
-
-<bibl id="B46">
-  <title><p>Amazon Web Services:</p></title>
-  <url>http://aws.amazon.com</url>
-</bibl>
-
-<bibl id="B47">
-  <title><p>Simple Storage Service:</p></title>
-  <url>http://aws.amazon.com/s3</url>
-</bibl>
-
 <bibl id="B48">
-  <title><p>Amazon Web Services Forums:</p></title>
-  <url>https://forums.aws.amazon.com</url>
-</bibl>
-
-<bibl id="B49">
-  <title><p>Ubuntu Linux Operating System:</p></title>
-  <url>http://www.ubuntu.com/Cloud</url>
-</bibl>
-
-<bibl id="B50">
-  <title><p>OpenStack Installation Documentation:</p></title>
-  <url>http://docs.openstack.org/essex/openstack-compute/starter/content/CentOS-de1592.html</url>
-</bibl>
-
-<bibl id="B51">
-  <title><p>Eucalyptus Cloud Installation Packages:</p></title>
-  <url>http://www.eucalyptus.com/download/eucalyptus</url>
-</bibl>
-
-<bibl id="B52">
-  <title><p>OpenStack at Magellan Cloud:</p></title>
-  <url>http://www.alcf.anl.gov/magellan</url>
-</bibl>
-
-<bibl id="B53">
-  <title><p>OpenStack Cloud Installations:</p></title>
-  <url>http://openstack.org/user-stories/</url>
-</bibl>
-
-<bibl id="B54">
-  <title><p>VirtualBox desktop virtualization software:</p></title>
-  <url>http://www.virtualbox.org</url>
-</bibl>
-
-<bibl id="B55">
-  <title><p>Cloud BioLinux community site:</p></title>
-  <url>http://www.cloudbiolinux.org</url>
-</bibl>
-
-<bibl id="B56">
-  <title><p>Amazon CloudFront:</p></title>
-  <url>http://aws.amazon.com/cloudfront/</url>
-</bibl>
-
-<bibl id="B57">
-  <title><p>Educational Grants:</p></title>
-  <url>http://aws.amazon.com/grants/</url>
-</bibl>
-
-<bibl id="B58">
-  <title><p>Community datasets hosting:</p></title>
-  <url>http://aws.amazon.com/datasets</url>
-</bibl>
-
-<bibl id="B59">
-  <title><p>1000 Human Genomes dataset on the cloud:</p></title>
-  <url>http://aws.amazon.com/1000genomes/</url>
-</bibl>
-
-<bibl id="B60">
-  <title><p>NCBI Flue sequence datasets:</p></title>
-  <url>http://aws.amazon.com/datasets/2419</url>
-</bibl>
-
-<bibl id="B61">
-  <title><p>Ensembl Human Genome Annotation:</p></title>
-  <url>http://aws.amazon.com/datasets/3841</url>
-</bibl>
-
-<bibl id="B62">
-  <title><p>Service-oriented computing: Concepts, characteristics and
-  directions Web Information Systems Engineering, 2003. WISE 2003. Proceedings
-  of the Fourth International Conference on</p></title>
-  <aug>
-    <au><snm>Papazoglou</snm><fnm>M.P.</fnm></au>
-  </aug>
-  <source>Service-oriented computing: Concepts, characteristics and directions
-  Web Information Systems Engineering, 2003. WISE 2003. Proceedings of the
-  Fourth International Conference on</source>
-  <publisher>IEEE</publisher>
-  <pubdate>2003</pubdate>
-  <fpage>3</fpage>
-  <lpage>-12</lpage>
-</bibl>
-
-<bibl id="B63">
-  <title><p>The case for cloud computing in genome informatics</p></title>
-  <aug>
-    <au><snm>Stein</snm><fnm>L. D.</fnm></au>
-  </aug>
-  <source>Genome Biology</source>
-  <pubdate>2010</pubdate>
-  <volume>11</volume>
-  <issue>5</issue>
-  <fpage>207</fpage>
-</bibl>
-
-<bibl id="B64">
-  <title><p>Illumina BaseSpace:</p></title>
-  <url>http://basespace.illumina.com</url>
-</bibl>
-
-<bibl id="B65">
   <title><p>Broad Institute Genomespace portal:</p></title>
   <url>http://www.genomespace.org</url>
 </bibl>
 
-<bibl id="B66">
+<bibl id="B49">
   <title><p>SeqWare Query Engine: storing and searching sequence data in the
   cloud</p></title>
   <aug>
@@ -1012,12 +997,246 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <fpage>S2</fpage>
 </bibl>
 
-<bibl id="B67">
-  <title><p>DNANexus Inc. :</p></title>
+<bibl id="B50">
+  <title><p>Illumina BaseSpace:</p></title>
+  <url>http://basespace.illumina.com</url>
+</bibl>
+
+<bibl id="B51">
+  <title><p>DNANexus Inc.:</p></title>
   <url>http://www.dnanexus.com</url>
 </bibl>
 
+<bibl id="B52">
+  <title><p>Using clouds for metagenomics: A case study</p></title>
+  <aug>
+    <au><snm>Wilkening</snm><fnm>J.</fnm></au>
+    <au><snm>Wilke</snm><fnm>A.</fnm></au>
+    <au><snm>Desai</snm><fnm>N.</fnm></au>
+    <au><snm>Meyer</snm><fnm>F.</fnm></au>
+  </aug>
+  <source>Using clouds for metagenomics: A case study</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2009</pubdate>
+  <fpage>1</fpage>
+  <lpage>6</lpage>
+</bibl>
+
+<bibl id="B53">
+  <title><p>Intel virtualization technology</p></title>
+  <aug>
+    <au><snm>Uhlig</snm><fnm>R.</fnm></au>
+    <au><snm>Neiger</snm><fnm>G.</fnm></au>
+    <au><snm>Rodgers</snm><fnm>D.</fnm></au>
+    <au><snm>Santoni</snm><fnm>A.L.</fnm></au>
+    <au><snm>Martins</snm><fnm>F.C.M.</fnm></au>
+    <au><snm>Anderson</snm><fnm>A.V.</fnm></au>
+    <au><snm>Bennett</snm><fnm>S.M.</fnm></au>
+    <au><snm>Kagi</snm><fnm>A.</fnm></au>
+    <au><snm>Leung</snm><fnm>F.H.</fnm></au>
+    <au><snm>Smith</snm><fnm>L.</fnm></au>
+  </aug>
+  <source>Computer</source>
+  <pubdate>2005</pubdate>
+  <volume>38</volume>
+  <issue>5</issue>
+  <fpage>48</fpage>
+  <lpage>56</lpage>
+</bibl>
+
+<bibl id="B54">
+  <title><p>In silico research in the era of cloud computing</p></title>
+  <aug>
+    <au><snm>Dudley</snm><fnm>J. T.</fnm></au>
+    <au><snm>Butte</snm><fnm>A. J.</fnm></au>
+  </aug>
+  <source>Nature biotechnology</source>
+  <pubdate>2010</pubdate>
+  <volume>28</volume>
+  <issue>11</issue>
+  <fpage>1181</fpage>
+  <lpage>1185</lpage>
+</bibl>
+
+<bibl id="B55">
+  <title><p>Elastic Block Store:</p></title>
+  <url>http://aws.amazon.com/ebs</url>
+</bibl>
+
+<bibl id="B56">
+  <title><p>Amazon Web Services:</p></title>
+  <url>http://aws.amazon.com</url>
+</bibl>
+
+<bibl id="B57">
+  <title><p>Simple Storage Service:</p></title>
+  <url>http://aws.amazon.com/s3</url>
+</bibl>
+
+<bibl id="B58">
+  <title><p>Amazon Web Services Forums:</p></title>
+  <url>https://forums.aws.amazon.com</url>
+</bibl>
+
+<bibl id="B59">
+  <title><p>Ubuntu Linux Operating System:</p></title>
+  <url>http://www.ubuntu.com/Cloud</url>
+</bibl>
+
+<bibl id="B60">
+  <title><p>OpenStack Installation Documentation:</p></title>
+  <url>http://docs.openstack.org/essex/openstack-compute/starter/content/CentOS-de1592.html</url>
+</bibl>
+
+<bibl id="B61">
+  <title><p>Eucalyptus Cloud Installation Packages:</p></title>
+  <url>http://www.eucalyptus.com/download/eucalyptus</url>
+</bibl>
+
+<bibl id="B62">
+  <title><p>Google Apple Engine</p></title>
+</bibl>
+
+<bibl id="B63">
+  <title><p>Microsoft Windows Azure</p></title>
+</bibl>
+
+<bibl id="B64">
+  <title><p>Go Grid Cloud</p></title>
+</bibl>
+
+<bibl id="B65">
+  <title><p>Flexiscale Cloud</p></title>
+</bibl>
+
+<bibl id="B66">
+  <title><p>IBM SmartCloud</p></title>
+</bibl>
+
+<bibl id="B67">
+  <title><p>Python Programming Language</p></title>
+</bibl>
+
 <bibl id="B68">
+  <title><p>Microsoft .NET Framework</p></title>
+</bibl>
+
+<bibl id="B69">
+  <title><p>BioTeam: Scriptable Cloud Infrastructures</p></title>
+</bibl>
+
+<bibl id="B70">
+  <title><p>OpenStack at Magellan Cloud:</p></title>
+  <url>http://www.alcf.anl.gov/magellan</url>
+</bibl>
+
+<bibl id="B71">
+  <title><p>OpenStack Cloud Installations:</p></title>
+  <url>http://openstack.org/user-stories/</url>
+</bibl>
+
+<bibl id="B72">
+  <title><p>VirtualBox desktop virtualization software:</p></title>
+  <url>http://www.virtualbox.org</url>
+</bibl>
+
+<bibl id="B73">
+  <title><p>Cloud BioLinux community site:</p></title>
+  <url>http://www.cloudbiolinux.org</url>
+</bibl>
+
+<bibl id="B74">
+  <title><p>Educational Grants:</p></title>
+  <url>http://aws.amazon.com/grants/</url>
+</bibl>
+
+<bibl id="B75">
+  <title><p>Community datasets hosting:</p></title>
+  <url>http://aws.amazon.com/datasets</url>
+</bibl>
+
+<bibl id="B76">
+  <title><p>1000 Human Genomes dataset on the cloud:</p></title>
+  <url>http://aws.amazon.com/1000genomes/</url>
+</bibl>
+
+<bibl id="B77">
+  <title><p>NCBI Flue sequence datasets:</p></title>
+  <url>http://aws.amazon.com/datasets/2419</url>
+</bibl>
+
+<bibl id="B78">
+  <title><p>Ensembl Human Genome Annotation:</p></title>
+  <url>http://aws.amazon.com/datasets/3841</url>
+</bibl>
+
+<bibl id="B79">
+  <title><p>Amazon CloudFront:</p></title>
+  <url>http://aws.amazon.com/cloudfront/</url>
+</bibl>
+
+<bibl id="B80">
+  <title><p>Representational state transfer (REST)</p></title>
+  <aug>
+    <au><snm>Fielding</snm><fnm>R.</fnm></au>
+  </aug>
+  <source>Architectural Styles and the Design of Network-based Software
+  Architectures. University of California, Irvine</source>
+  <pubdate>2000</pubdate>
+  <fpage>120</fpage>
+</bibl>
+
+<bibl id="B81">
+  <title><p>Simple Object Access Protocol (SOAP):</p></title>
+</bibl>
+
+<bibl id="B82">
+  <aug>
+    <au><snm>Libraries</snm><fnm>SD</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B83">
+  <title><p>Amazon Cloud Storage S3 Add-On</p></title>
+</bibl>
+
+<bibl id="B84">
+  <title><p>S3 Reduced Redudancy Storage</p></title>
+</bibl>
+
+<bibl id="B85">
+  <title><p>Amazon Glacier storage service</p></title>
+</bibl>
+
+<bibl id="B86">
+  <title><p>Service-oriented computing: Concepts, characteristics and
+  directions Web Information Systems Engineering, 2003. WISE 2003. Proceedings
+  of the Fourth International Conference on</p></title>
+  <aug>
+    <au><snm>Papazoglou</snm><fnm>M.P.</fnm></au>
+  </aug>
+  <source>Service-oriented computing: Concepts, characteristics and directions
+  Web Information Systems Engineering, 2003. WISE 2003. Proceedings of the
+  Fourth International Conference on</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2003</pubdate>
+  <fpage>3</fpage>
+  <lpage>-12</lpage>
+</bibl>
+
+<bibl id="B87">
+  <title><p>The case for cloud computing in genome informatics</p></title>
+  <aug>
+    <au><snm>Stein</snm><fnm>L. D.</fnm></au>
+  </aug>
+  <source>Genome Biology</source>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>5</issue>
+  <fpage>207</fpage>
+</bibl>
+
+<bibl id="B88">
   <title><p>Cloud computing: A study of infrastructure as a service
   (IAAS)</p></title>
   <aug>
@@ -1034,7 +1253,31 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-63</lpage>
 </bibl>
 
-<bibl id="B69">
+<bibl id="B89">
+  <title><p>Amazon EC2 Cloud instance types:</p></title>
+</bibl>
+
+<bibl id="B90">
+  <title><p>Performance analysis of high performance computing applications on
+  the amazon web services cloud</p></title>
+  <aug>
+    <au><snm>Jackson</snm><fnm>K.R.</fnm></au>
+    <au><snm>Ramakrishnan</snm><fnm>L.</fnm></au>
+    <au><snm>Muriki</snm><fnm>K.</fnm></au>
+    <au><snm>Canon</snm><fnm>S.</fnm></au>
+    <au><snm>Cholia</snm><fnm>S.</fnm></au>
+    <au><snm>Shalf</snm><fnm>J.</fnm></au>
+    <au><snm>Wasserman</snm><fnm>H.J.</fnm></au>
+    <au><snm>Wright</snm><fnm>N.J.</fnm></au>
+  </aug>
+  <source>Cloud Computing Technology and Science (CloudCom), 2010 IEEE Second
+  International Conference on</source>
+  <pubdate>2010</pubdate>
+  <fpage>159</fpage>
+  <lpage>-168</lpage>
+</bibl>
+
+<bibl id="B91">
   <title><p>A quantitative analysis of high performance computing with Amazon's
   EC2 infrastructure: The death of the local cluster?</p></title>
   <aug>
@@ -1048,7 +1291,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-33</lpage>
 </bibl>
 
-<bibl id="B70">
+<bibl id="B92">
   <title><p>Myrinet: A gigabit-per-second local area network</p></title>
   <aug>
     <au><snm>Boden</snm><fnm>N.J.</fnm></au>
@@ -1068,7 +1311,7 @@ Association IT: \emph{InfiniBand Architecture Specification: Release 1.0}.
   <lpage>-36</lpage>
 </bibl>
 
-<bibl id="B71">
+<bibl id="B93">
   <title><p>InfiniBand Architecture Specification: Release 1.0</p></title>
   <aug>
     <au><snm>Association</snm><fnm>IT</fnm></au>

@@ -2,12 +2,12 @@ This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: bmc_article.aux
 Case mismatch error between cite keys Clarke2012 and clarke2012
----line 54 of file bmc_article.aux
+---line 53 of file bmc_article.aux
  : \citation{Clarke2012
  :                     }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Clarke2012 and clarke2012
----line 88 of file bmc_article.aux
+---line 101 of file bmc_article.aux
  : \citation{Clarke2012
  :                     }
 I'm skipping whatever remains of this command
@@ -19,63 +19,91 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bmc_article.bib
-Warning--entry type for "ebs" isn't style-file defined
+Warning--entry type for "glacier" isn't style-file defined
+--line 12 of file bmc_article.bib
+Warning--entry type for "reduced" isn't style-file defined
+--line 18 of file bmc_article.bib
+Warning--entry type for "s3fox" isn't style-file defined
+--line 24 of file bmc_article.bib
+Warning--entry type for "s3developer" isn't style-file defined
+--line 30 of file bmc_article.bib
+Warning--entry type for "python" isn't style-file defined
+--line 36 of file bmc_article.bib
+Warning--entry type for "net" isn't style-file defined
 --line 42 of file bmc_article.bib
-Warning--entry type for "dnanexus" isn't style-file defined
---line 59 of file bmc_article.bib
-Warning--entry type for "genomespace" isn't style-file defined
---line 65 of file bmc_article.bib
-Warning--entry type for "basespace" isn't style-file defined
---line 71 of file bmc_article.bib
-Warning--entry type for "awsflu" isn't style-file defined
---line 99 of file bmc_article.bib
-Warning--entry type for "awsensembl" isn't style-file defined
---line 105 of file bmc_article.bib
-Warning--entry type for "aws1000gen" isn't style-file defined
---line 111 of file bmc_article.bib
-Warning--entry type for "awspublicdata" isn't style-file defined
---line 117 of file bmc_article.bib
-Warning--entry type for "awsgrants" isn't style-file defined
---line 123 of file bmc_article.bib
-Warning--entry type for "cloudfront" isn't style-file defined
+Warning--entry type for "scriptaws" isn't style-file defined
+--line 48 of file bmc_article.bib
+Warning--entry type for "smartcloud" isn't style-file defined
+--line 54 of file bmc_article.bib
+Warning--entry type for "gogrid" isn't style-file defined
+--line 60 of file bmc_article.bib
+Warning--entry type for "flexiscale" isn't style-file defined
+--line 66 of file bmc_article.bib
+Warning--entry type for "azure" isn't style-file defined
+--line 72 of file bmc_article.bib
+Warning--entry type for "appengine" isn't style-file defined
+--line 78 of file bmc_article.bib
+Warning--entry type for "sourceforge" isn't style-file defined
+--line 84 of file bmc_article.bib
+Warning--entry type for "ec2regions" isn't style-file defined
+--line 90 of file bmc_article.bib
+Warning--entry type for "soap" isn't style-file defined
 --line 129 of file bmc_article.bib
-Warning--entry type for "s3" isn't style-file defined
+Warning--entry type for "instancetypes" isn't style-file defined
 --line 135 of file bmc_article.bib
+Warning--entry type for "ebs" isn't style-file defined
+--line 181 of file bmc_article.bib
+Warning--entry type for "dnanexus" isn't style-file defined
+--line 199 of file bmc_article.bib
+Warning--entry type for "genomespace" isn't style-file defined
+--line 206 of file bmc_article.bib
+Warning--entry type for "basespace" isn't style-file defined
+--line 213 of file bmc_article.bib
+Warning--entry type for "awsflu" isn't style-file defined
+--line 242 of file bmc_article.bib
+Warning--entry type for "awsensembl" isn't style-file defined
+--line 249 of file bmc_article.bib
+Warning--entry type for "aws1000gen" isn't style-file defined
+--line 256 of file bmc_article.bib
+Warning--entry type for "awspublicdata" isn't style-file defined
+--line 263 of file bmc_article.bib
+Warning--entry type for "awsgrants" isn't style-file defined
+--line 270 of file bmc_article.bib
+Warning--entry type for "cloudfront" isn't style-file defined
+--line 277 of file bmc_article.bib
+Warning--entry type for "s3" isn't style-file defined
+--line 284 of file bmc_article.bib
 Warning--entry type for "cblorg" isn't style-file defined
---line 141 of file bmc_article.bib
+--line 291 of file bmc_article.bib
 Warning--entry type for "vbox" isn't style-file defined
---line 147 of file bmc_article.bib
+--line 298 of file bmc_article.bib
 Warning--entry type for "openstackinstalls" isn't style-file defined
---line 153 of file bmc_article.bib
+--line 305 of file bmc_article.bib
 Warning--entry type for "magellan" isn't style-file defined
---line 159 of file bmc_article.bib
+--line 312 of file bmc_article.bib
 Warning--entry type for "eucalyptusother" isn't style-file defined
---line 165 of file bmc_article.bib
+--line 319 of file bmc_article.bib
 Warning--entry type for "openstackother" isn't style-file defined
---line 171 of file bmc_article.bib
+--line 326 of file bmc_article.bib
 Warning--entry type for "ubuntucloud" isn't style-file defined
---line 177 of file bmc_article.bib
+--line 333 of file bmc_article.bib
 Warning--entry type for "openstack" isn't style-file defined
---line 183 of file bmc_article.bib
+--line 340 of file bmc_article.bib
 Warning--entry type for "awsforums" isn't style-file defined
---line 189 of file bmc_article.bib
+--line 347 of file bmc_article.bib
 Warning--entry type for "aws" isn't style-file defined
---line 195 of file bmc_article.bib
+--line 354 of file bmc_article.bib
 Warning--entry type for "ncbi" isn't style-file defined
---line 201 of file bmc_article.bib
+--line 361 of file bmc_article.bib
 Warning--entry type for "euca" isn't style-file defined
---line 364 of file bmc_article.bib
-Warning--I didn't find a database entry for "Metzker2009"
-Warning--I didn't find a database entry for "Loman2012"
-Warning--I didn't find a database entry for "johnson2008ncbi"
-Warning--I didn't find a database entry for "Meyer2006"
-Warning--I didn't find a database entry for "ec2regions"
-Warning--I didn't find a database entry for "sourceforge"
+--line 525 of file bmc_article.bib
 Warning--I didn't find a database entry for "cloudbio"
-Warning--I didn't find a database entry for "Uhling2005"
-Warning--I didn't find a database entry for "altchul"
-Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "nimbusit"
+Warning--I didn't find a database entry for "mathur2007new"
+Warning--I didn't find a database entry for "cyberduck"
+Warning--I didn't find a database entry for "s3browse"
 Warning--I didn't find a database entry for "youtube"
+Warning--I didn't find a database entry for "altchul"
 Warning--empty year in venterdublin
 Warning--empty author and editor in Schrodinger1992
 Warning--empty journal in Illumina
@@ -84,16 +112,15 @@ Warning--empty journal in solid5500
 Warning--empty year in solid5500
 Warning--empty journal in PacBio
 Warning--empty year in PacBio
+Warning--empty journal in Loman2012a
 Warning--empty journal in sra
 Warning--empty year in sra
 Warning--empty journal in awsec2
 Warning--empty year in awsec2
 Warning--empty journal in ec2price
 Warning--empty year in ec2price
-Warning--empty title in 1000tube1
 Warning--empty journal in 1000tube1
 Warning--empty year in 1000tube1
-Warning--empty title in 1000tube2
 Warning--empty journal in 1000tube2
 Warning--empty year in 1000tube2
 Warning--empty journal in github
@@ -108,45 +135,45 @@ Warning--empty year in googlegroup
 Warning--empty title in fabric
 Warning--empty journal in fabric
 Warning--empty year in fabric
-You've used 71 entries,
+You've used 93 entries,
             3603 wiz_defined-function locations,
-            1037 strings with 14025 characters,
-and the built_in function-call counts, 104422 in all, are:
-= -- 9623
-> -- 518
-< -- 213
-+ -- 670
-- -- 149
-* -- 10885
-:= -- 18096
-add.period$ -- 101
-call.type$ -- 71
-change.case$ -- 168
+            1098 strings with 15692 characters,
+and the built_in function-call counts, 130308 in all, are:
+= -- 12060
+> -- 630
+< -- 250
++ -- 811
+- -- 179
+* -- 13205
+:= -- 22567
+add.period$ -- 128
+call.type$ -- 93
+change.case$ -- 200
 chr.to.int$ -- 0
-cite$ -- 103
-duplicate$ -- 7142
-empty$ -- 7742
-format.name$ -- 670
-if$ -- 20848
+cite$ -- 124
+duplicate$ -- 9030
+empty$ -- 9591
+format.name$ -- 794
+if$ -- 26176
 int.to.chr$ -- 0
-int.to.str$ -- 142
-missing$ -- 3080
-newline$ -- 969
-num.names$ -- 89
-pop$ -- 2769
+int.to.str$ -- 186
+missing$ -- 4010
+newline$ -- 1196
+num.names$ -- 103
+pop$ -- 3676
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 142
-skip$ -- 1798
+quote$ -- 186
+skip$ -- 2518
 stack$ -- 0
-substring$ -- 14469
-swap$ -- 1555
-text.length$ -- 98
+substring$ -- 17720
+swap$ -- 1926
+text.length$ -- 126
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
-warning$ -- 32
-while$ -- 441
-width$ -- 73
-write$ -- 1689
+type$ -- 110
+warning$ -- 31
+while$ -- 533
+width$ -- 95
+write$ -- 2053
 (There were 2 error messages)
